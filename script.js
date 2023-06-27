@@ -9,10 +9,6 @@ const pokemon = [
         name: 'NAME',
         img: 'img/pkmn-img/002.png'
     },
-    {
-        num: '003',
-        
-    }
 ];
 
 const pkmnNum = document.getElementsByClassName("pkmn-num")[0];
