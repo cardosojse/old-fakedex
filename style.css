@@ -28,7 +28,6 @@ main{
     background-image: url('img/background.png');
     background-size: contain;
 }
-
 .header{
     position: absolute;
     top: 16%;
@@ -44,7 +43,6 @@ main{
     top: 23%;
     left: 31%;
     width: 40%;
-    overflow: hidden;
 }
 .pkmn-img{
     width: 100%;
