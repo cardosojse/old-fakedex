@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+:root{
+    --green:#2E8B57;
+    --lighter-green:
+}
+html{
+    font-size: 16px;
+    font-weight: 700;
+}
+body{
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+}
+main{
+    position: relative;
+    margin: 5% auto;
+    padding: 15px;
+    width: 100vw;
+    max-width: 488px;
+}
+.pokedex{
+    width: 100%;
+    background-image: url('img/background.png');
+    background-size: contain;
+}
+
+.header{
+    position: absolute;
+    top: 16%;
+    left: 37.5%;   
+    font-size: 1.2em;
+    color: var(--green);
+}
+.hifen{
+    margin: 0px 20px;
+}
+.pkmn-image{
+    position: absolute;
+    top: 23%;
+    left: 31%;
+    width: 40%;
+    overflow: hidden;
+}
+.pkmn-img{
+    width: 100%;
+}
+.chevron{
+    width: 35px;
+    cursor: pointer;
+}
+.chevron:active{
+    width: 34px;
+}
+.prev{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
+.next{
+    position: absolute;
+    top: 35%;
+    right: 22%;
+}
+.pkmn-data{
+    position: absolute;
+    top: 53%;
+    left: 32.5%;
+    text-align: center;
+    color: var(--green);
+    line-height: 2em;
+}
+.type-img{
+    width: 80px;
+}
+.buttons{
+    position: absolute;
+    bottom: 15%;
+    left: 23.5%;
+    cursor: pointer;
+}
+.button-img:active{
+    height: 44px;
+}
+.button-img{
+    border: 2px solid #2E8B57;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    height: 45px;
+    margin: 0 20px;
+    padding: 4px;
+}
