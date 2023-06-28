@@ -28,7 +28,7 @@ const pokemon = [
     {
         num: '006',
         name: 'DEFAULT',
-        img: '',
+        img: 'img/pkmn-img/006.png',
     },
     {
         num: '007',
