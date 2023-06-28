@@ -18,7 +18,7 @@ body{
 }
 main{
     position: relative;
-    margin: 5% auto;
+    margin: 2% auto;
     padding: 15px;
     width: 100vw;
     max-width: 488px;
@@ -26,6 +26,8 @@ main{
 .pokedex{
     width: 100%;
     background-image: url('img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .header{
