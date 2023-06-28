@@ -26,13 +26,13 @@ main{
 .pokedex{
     width: 100%;
     background-image: url('img/background.png');
-    background-size: contain;
+    background-size: cover;
 }
 .header{
     position: absolute;
-    top: 16%;
-    left: 37.5%;   
-    font-size: 1.2em;
+    top: 15%;
+    left: 35%;   
+    font-size: 1.5em;
     color: var(--green);
 }
 .hifen{
@@ -40,9 +40,9 @@ main{
 }
 .pkmn-image{
     position: absolute;
-    top: 23%;
-    left: 31%;
-    width: 40%;
+    top: 22%;
+    left: 25.5%;
+    width: 50%;
 }
 .pkmn-img{
     width: 100%;
@@ -57,28 +57,29 @@ main{
 .prev{
     position: absolute;
     top: 35%;
-    left: 22%;
+    left: 15%;
 }
 .next{
     position: absolute;
     top: 35%;
-    right: 22%;
+    right: 15%;
 }
 .pkmn-data{
     position: absolute;
-    top: 53%;
-    left: 32.5%;
+    top: 55%;
+    left: 8%;
     text-align: center;
     color: var(--green);
+    font-size: 1.2em;
     line-height: 2em;
 }
 .type-img{
-    width: 80px;
+    width: 28%;
 }
 .buttons{
     position: absolute;
     bottom: 15%;
-    left: 23.5%;
+    left: 21.5%;
     cursor: pointer;
 }
 .button-img:active{
@@ -87,7 +88,7 @@ main{
 .button-img{
     border: 2px solid #2E8B57;
     box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
-    height: 45px;
+    height: 50px;
     margin: 0 20px;
     padding: 4px;
 }
