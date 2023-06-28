@@ -32,9 +32,11 @@ main{
 }
 .header{
     position: absolute;
-    top: 15%;
-    left: 35%;   
+    top: 13%;
+    left: 29%;   
     font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
     color: var(--green);
 }
 .hifen{
@@ -69,7 +71,7 @@ main{
 .pkmn-data{
     position: absolute;
     top: 55%;
-    left: 8%;
+    left: 9.5%;
     text-align: center;
     color: var(--green);
     font-size: 1.2em;
