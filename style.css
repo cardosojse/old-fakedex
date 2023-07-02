@@ -71,14 +71,14 @@ main{
 .pkmn-data{
     position: absolute;
     top: 55%;
-    left: 9.5%;
+    left: 28.5%;
     text-align: center;
     color: var(--green);
     font-size: 1.2em;
     line-height: 2em;
 }
-.type-img{
-    width: 28%;
+.type1-img, .type2-img{
+    width: 50%;
 }
 .buttons{
     position: absolute;

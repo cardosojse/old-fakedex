@@ -3,7 +3,8 @@ const pokemon = [
         num: '001',
         name: 'COATTINY',
         img: 'img/pkmn-img/001.png',
-        // type1: 'img/pkmn-type/grass.png'
+        type1: 'img/pkmn-type/grass.png',
+        type2: '',
     },
     {
         num: '002',
@@ -27,7 +28,7 @@ const pokemon = [
     },
     {
         num: '006',
-        name: 'DEFAULT',
+        name: 'MOTORAM',
         img: 'img/pkmn-img/006.png',
     },
     {
@@ -43,7 +44,7 @@ const pokemon = [
     {
         num: '009',
         name: 'DEFAULT',
-        img: '',
+        img: 'img/pkmn-img/009.png',
     },
     {
         num: '010',
@@ -73,7 +74,7 @@ const pokemon = [
     {
         num: '015',
         name: 'DEFAULT',
-        img: '',
+        img: 'img/pkmn-img/015.png',
     },
     {
         num: '016',
@@ -104,6 +105,21 @@ const pokemon = [
         num: '021',
         name: 'BELLSPROUT',
         img: 'img/pkmn-img/021.png',
+    },
+    {
+        num: '022',
+        name: 'WEEPINBELL',
+        img: 'img/pkmn-img/022.png',
+    },
+    {
+        num: '023',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/023.png',
+    },
+    {
+        num: '039',
+        name: 'MANTINE',
+        img: 'img/pkmn-img/039.png',
     },
     {
         num: '040',
@@ -167,7 +183,7 @@ const pokemon = [
     },
     {
         num: '071',
-        name: 'MILTANK',
+        name: 'CALFLING',
         img: 'img/pkmn-img/071.png',
     },
     {
@@ -177,17 +193,17 @@ const pokemon = [
     },
     {
         num: '080',
-        name: 'THITTALYS',
+        name: 'CHRITALLYS',
         img: 'img/pkmn-img/080.png',
     },
     {
         num: '081',
-        name: 'DEFAULT',
-        img: '',
+        name: 'INDOMITAR',
+        img: 'img/pkmn-img/081.png',
     },
     {
         num: '082',
-        name: 'INDOMITAR',
+        name: 'DEFAULT',
         img: 'img/pkmn-img/082.png',
     },
     {
@@ -200,18 +216,13 @@ const pokemon = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/084.png',
     },
-    {
-        num: '085',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/085.png',
-    },
 ];
 
 const pkmnNum = document.getElementsByClassName("pkmn-num")[0];
 const pkmnName = document.getElementsByClassName("pkmn-name")[0];
 const pkmnImg = document.getElementsByClassName("pkmn-img")[0];
-// const pkmnType1 = document.getElementsByClassName("type-img")[0];
-// const pkmnType2 = document.getElementsByClassName("type-img")[1];
+const pkmnType1 = document.querySelector("type1-img");
+const pkmnType2 = document.querySelector(".type2-img");
 const prevBtn = document.getElementsByClassName("chevron prev")[0];
 const nextBtn = document.getElementsByClassName("chevron next")[0];
 
@@ -223,7 +234,10 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnNum.textContent = item.num;
     pkmnName.textContent = item.name;
     pkmnImg.src = item.img;
-    // pkmnType1.src = item.type1;
+    pkmnType1.src = item.type1;
+    if(pkmnType2 === ''){
+        
+    }
 });
 
 function showData(pkmn){
@@ -231,7 +245,7 @@ function showData(pkmn){
     pkmnNum.textContent = item.num;
     pkmnName.textContent = item.name;
     pkmnImg.src = item.img;
-    // pkmnType1.src = item.type1;
+    pkmnType1.src = item.type1;
 };
 
 prevBtn.addEventListener("click", function(){
