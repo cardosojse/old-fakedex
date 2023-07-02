@@ -9,12 +9,16 @@ const pokemon = [
     {
         num: '002',
         name: 'COATTHIEF',
-        img: 'img/pkmn-img/002.png'
+        img: 'img/pkmn-img/002.png',
+        type1: 'img/pkmn-type/grass.png',
+        type2: 'img/pkmn-type/dark.png',
     },
     {
         num: '003',
         name: 'SAQUACYN',
         img: 'img/pkmn-img/003.png',
+        type1: 'img/pkmn-type/grass.png',
+        type2: 'img/pkmn-type/dark.png',
     },
     {
         num: '004',
@@ -127,6 +131,11 @@ const pokemon = [
         img: 'img/pkmn-img/040.png',
     },
     {
+        num: '049',
+        name: 'ANKUSHAKU',
+        img: 'img/pkmn-img/049.png',
+    },
+    {
         num: '050',
         name: 'CUMBULLUS',
         img: 'img/pkmn-img/050.png',
@@ -235,9 +244,6 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnName.textContent = item.name;
     pkmnImg.src = item.img;
     pkmnType1.src = item.type1;
-    if(pkmnType2 === ''){
-        
-    }
 });
 
 function showData(pkmn){
