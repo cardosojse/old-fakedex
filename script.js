@@ -4,7 +4,7 @@ const pokemon = [
         name: 'COATTINY',
         img: 'img/pkmn-img/001.png',
         type1: 'img/pkmn-type/grass.png',
-        type2: '',
+        type2: ' ',
     },
     {
         num: '002',
@@ -123,7 +123,7 @@ const pokemon = [
     {
         num: '038',
         name: 'MANTINE',
-        img: 'img/pkmn-img/039.png',
+        img: 'img/pkmn-img/038.png',
     },
     {
         num: '040',
@@ -260,11 +260,10 @@ const pokemon = [
 const pkmnNum = document.getElementsByClassName("pkmn-num")[0];
 const pkmnName = document.getElementsByClassName("pkmn-name")[0];
 const pkmnImg = document.getElementsByClassName("pkmn-img")[0];
-const pkmnType1 = document.querySelector("type1-img");
+const pkmnType1 = document.querySelector(".type1-img");
 const pkmnType2 = document.querySelector(".type2-img");
 const prevBtn = document.getElementsByClassName("chevron prev")[0];
 const nextBtn = document.getElementsByClassName("chevron next")[0];
-
 
 let currentItem = 0;
 
@@ -274,6 +273,7 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnName.textContent = item.name;
     pkmnImg.src = item.img;
     pkmnType1.src = item.type1;
+
 });
 
 function showData(pkmn){
@@ -282,6 +282,9 @@ function showData(pkmn){
     pkmnName.textContent = item.name;
     pkmnImg.src = item.img;
     pkmnType1.src = item.type1;
+    if (item.type2 !== ' '){
+        pkmnType2.src = item.type2;
+    }
 };
 
 prevBtn.addEventListener("click", function(){
