@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -95,4 +95,98 @@ main{
     height: 50px;
     margin: 0 20px;
     padding: 4px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+body{
+    min-height: 90vh;
+    color: #2E8B57;
+    font-weight: 700;
+}
+.template{
+    position: relative;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 450px;
+}
+.grid-container{
+    position: absolute;
+    top: 12%;
+    left: 1.35%;
+    display: grid;
+    grid-template-areas:"a1 a1 a1 a1"
+                        "a2 a2 a2 a2"
+                        "a3 a4 a4 a5"
+                        "a6 a6 a6 a6"
+                        "a7 a7 a7 a7"
+                        "a8 a8 a8 a8"
+                        "a9 a9 a9 a9"
+                        "a10 a10 a10 a10";
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    max-width: 425px;
+}
+.grid-item{
+    padding: 10px;
+}
+.r1{
+    grid-area: a1;
+}
+.r2{
+    grid-area: a2;
+}
+.r3{
+    grid-area: a3;
+}
+.r4{
+    grid-area: a4;
+}
+.r5{
+    grid-area: a5;
+}
+.r6{
+    grid-area: a6;
+}
+.r7{
+    grid-area: a7;
+    /* display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0; */
+}
+.r8{
+    grid-area: a8;
+}
+.r9{
+    grid-area: a9;
+    
+}
+.r10{
+    grid-area: a10;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.pkmn-img{
+    width: 100%;
+}
+.pkmn-type{
+    width: 35%;
+}
+.pkmn-data{
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.btn{
+    width: 30%;
+    border: 2px solid #2E8B57;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5)
 }
