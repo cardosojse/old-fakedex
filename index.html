@@ -9,75 +9,46 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="style.css">
     <title>FAKEDEX</title>
-    <style>
-        @media screen and (max-width: 400px) {
-            main{
-                margin: 0;
-            }
-            .header{
-                left: 24%;
-            }
-            .pkmn-data{
-                left: 24%;
-            }
-            .buttons{
-                left: 18%;
-                bottom: 13%;
-            }
-            .buttons > img{
-                height: 40px;
-            }
-        }
-        @media screen and (max-width: 450px) and (min-width: 401px) {
-            main{
-                margin: 0;
-            }
-            .header{
-                left: 25%;
-            }
-            .pkmn-data{
-                right: 15%;
-            }
-            .buttons{
-                left: 20.5%;
-                bottom: 13%;
-            }
-            .buttons > img{
-                height: 43px;
-            }
-        }
-    </style>
 </head>
 <body>
-    <main>
-        <div class="header">
-            <span class="pkmn-num">001</span>
-            <span class="hifen">-</span>
-            <span class="pkmn-name">NAME</span>
-        </div>
-        <img src="img/chevron-left.png" alt="chevron-left" class="chevron prev">
-        <div class="pkmn-image">
-            <img src="img/pkmn-img/001.png" alt="pkmn-img" class="pkmn-img">
-        </div>
-        <img src="img/chevron-right.png" alt="chevron-right" class="chevron next">
-        <div class="pkmn-data">
-            <span class="pkmn-type">CATEGORIA</span>
-            <div class="type-img">
-                <!-- <img src="img/pkmn-type/grass.png" class="type1-img"> -->
+    <img src="img/pokedex-template.png" class="template">
+        <div class="grid-container">
+            <div class="grid-item r1">
+                <h2 class="pkmn-number">#000</h2>
             </div>
-            <span class="pkmn-ability">ABILITY</span>
-            <br>
-            <span class="pkmn-weight">WEIGHT</span>
-            <span class="hifen">-</span>
-            <span class="pkmn-height">HEIGHT</span>
+            <div class="grid-item r2">
+                <h2 class="pkmn-name">DEFAULT</h2>
+            </div>
+            <div class="grid-item r3">
+                <img src="img/chevron-left.png" class="prev-btn">
+            </div>
+            <div class="grid-item r4">
+                <img src="img/pkmn-img/049.png" class="pkmn-img">
+            </div>
+            <div class="grid-item r5">
+                <img src="img/chevron-right.png" class="next-btn">
+            </div>
+            <div class="grid-item r6">
+                <span>CATEGORIA</span>
+            </div>
+            <div class="grid-item r7">
+                <!-- pokemon's type -->
+            </div>
+            <div class="grid-item r8">
+                <span>HABILIDADE</span>
+            </div>
+            <div class="grid-item r9">
+                <!-- pokemon's data (weight/height) -->
+                <span>ALTURA</span>
+                <span>-</span>
+                <span>PESO</span>
+            </div>
+            <div class="grid-item r10">
+                <img src="img/icon.png" class="btn">
+                <img src="img/shiny.png" class="btn">
+                <img src="img/icons8-gênero-64.png" class="btn">
+            </div>
         </div>
-        <div class="buttons">
-            <img src="img/icon.png" alt="shiny" class="button-img">
-            <img src="img/shiny.png" alt="shiny" class="button-img">
-            <img src="img/icons8-gênero-64.png" alt="shiny" class="button-img">
-        </div>
-        <img src="img/pokedex-template.png" alt="pokedex" class="pokedex">
-    </main>
     <script src="script.js"></script>
 </body>
 </html>
