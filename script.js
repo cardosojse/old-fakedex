@@ -121,14 +121,19 @@ const pokemon = [
         img: 'img/pkmn-img/023.png',
     },
     {
-        num: '039',
+        num: '038',
         name: 'MANTINE',
         img: 'img/pkmn-img/039.png',
     },
     {
         num: '040',
-        name: 'SHRIMCEUS',
+        name: 'SHRIMBODYY',
         img: 'img/pkmn-img/040.png',
+    },
+    {
+        num: '041',
+        name: 'SHRIMRYU',
+        img: 'img/pkmn-img/041.png',
     },
     {
         num: '049',
@@ -191,9 +196,34 @@ const pokemon = [
         img: 'img/pkmn-img/066.png',
     },
     {
+        num: '067',
+        name: 'GYMNER',
+        img: 'img/pkmn-img/067.png',
+    },
+    {
+        num: '069',
+        name: 'CACTTARU',
+        img: 'img/pkmn-img/069.png',
+    },
+    {
+        num: '070',
+        name: 'MANCACTTARU',
+        img: 'img/pkmn-img/070.png',
+    },
+    {
         num: '071',
         name: 'CALFLING',
         img: 'img/pkmn-img/071.png',
+    },
+    {
+        num: '072',
+        name: 'MILTANK',
+        img: 'img/pkmn-img/072.png',
+    },
+    {
+        num: '073',
+        name: 'TAURUS',
+        img: 'img/pkmn-img/073.png',
     },
     {
         num: '079',
