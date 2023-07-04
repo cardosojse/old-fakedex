@@ -1,101 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oxanium', cursive;
-}
-:root{
-    --green:#2E8B57;
-    --lighter-green:
-}
-html{
-    font-size: 16px;
-    font-weight: 700;
-}
-body{
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
-    min-height: 100vh;
-}
-main{
-    position: relative;
-    margin: 2% auto;
-    padding: 15px;
-    width: 100vw;
-    max-width: 488px;
-}
-.pokedex{
-    width: 100%;
-    background-image: url('img/background.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.header{
-    position: absolute;
-    top: 13%;
-    left: 29%;   
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 1.5em;
-    color: var(--green);
-}
-.hifen{
-    margin: 0px 20px;
-}
-.pkmn-image{
-    position: absolute;
-    top: 22%;
-    left: 25.5%;
-    width: 50%;
-}
-.pkmn-img{
-    width: 100%;
-}
-.chevron{
-    width: 35px;
-    cursor: pointer;
-}
-.chevron:active{
-    width: 34px;
-}
-.prev{
-    position: absolute;
-    top: 35%;
-    left: 15%;
-}
-.next{
-    position: absolute;
-    top: 35%;
-    right: 15%;
-}
-.pkmn-data{
-    position: absolute;
-    top: 55%;
-    left: 8%;
-    text-align: center;
-    color: var(--green);
-    font-size: 1.2em;
-    line-height: 2em;
-}
-.type1-img, .type2-img{
-    width: 30%;
-}
-.buttons{
-    position: absolute;
-    bottom: 15%;
-    left: 21.5%;
-    cursor: pointer;
-}
-.button-img:active{
-    height: 44px;
-}
-.button-img{
-    border: 2px solid #2E8B57;
-    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
-    height: 50px;
-    margin: 0 20px;
-    padding: 4px;
-} */
 *{
     margin: 0;
     padding: 0;
@@ -103,35 +5,29 @@ main{
     font-family: 'Oxanium', cursive;
 }
 body{
-    min-height: 90vh;
     color: #2E8B57;
-    font-weight: 700;
-}
-.template{
-    position: relative;
-    background-image: url('img/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 450px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
 }
 .grid-container{
-    position: absolute;
-    top: 12%;
-    left: 1.35%;
     display: grid;
     grid-template-areas:"a1 a1 a1 a1"
-                        "a2 a2 a2 a2"
-                        "a3 a4 a4 a5"
+                        "a2 a3 a3 a4"
+                        "a5 a5 a5 a5"
                         "a6 a6 a6 a6"
                         "a7 a7 a7 a7"
                         "a8 a8 a8 a8"
-                        "a9 a9 a9 a9"
-                        "a10 a10 a10 a10";
-    justify-items: center;
+                        "a9 a9 a9 a9";
     align-items: center;
+    border: 5px solid #353535;
+    border-radius: 20px;
+    background-image: url('img/background.png');
+    background-position: center;
+    margin: 70px auto;
+    padding: 15px;
     width: 100%;
     max-width: 425px;
+    text-align: center;
 }
 .grid-item{
     padding: 10px;
@@ -153,40 +49,31 @@ body{
 }
 .r6{
     grid-area: a6;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 .r7{
     grid-area: a7;
-    /* display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin: 10px 0; */
 }
 .r8{
     grid-area: a8;
+    display: flex;
+    justify-content: space-evenly;
 }
 .r9{
     grid-area: a9;
-    
-}
-.r10{
-    grid-area: a10;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid red;
 }
-
 .pkmn-img{
     width: 100%;
 }
 .pkmn-type{
-    width: 35%;
-}
-.pkmn-data{
-    font-weight: 400;
-    font-size: 0.9em;
+    width: 30%;
 }
 .btn{
-    width: 30%;
+    width: 12%;
     border: 2px solid #2E8B57;
     box-shadow: 2px 2px 1px rgba(0,0,0,0.5)
 }
