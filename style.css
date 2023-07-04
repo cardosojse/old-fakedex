@@ -75,7 +75,10 @@ body{
 .btn{
     width: 50px;
     border: 2px solid #2E8B57;
-    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+    box-shadow: -2px 2px 1px rgba(0,0,0,0.5);
     cursor: pointer;
     padding: 4px;
+}
+.btn:active{
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.5);;
 }

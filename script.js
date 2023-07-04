@@ -281,7 +281,7 @@ const pkmnName = document.querySelector(".pkmn-name");
 const pkmnImg = document.querySelector(".pkmn-img");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
-const pkmnType = document.querySelector(".pkmn-type");
+const pkmnType = document.querySelector(".pkmn-type-container");
 
 let currentPkmn = 0;
 
@@ -292,7 +292,7 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnImg.src = pkmnObj.img;
     let imgChild = '';
     pkmnObj.pokemonTypes.forEach(function (typeUrl) {
-        imgChild += `<img src=${typeUrl} class="type1-img">`
+        imgChild += `<img src=${typeUrl} class="pkmn-type">`
     });
     pkmnType.innerHTML = imgChild;
 });
@@ -304,7 +304,7 @@ function showData(pkmn){
     pkmnImg.src = pkmnObj.img;
     let imgChild = '';
     pkmnObj.pokemonTypes.forEach(function (typeUrl) {
-        imgChild += `<img src=${typeUrl} class="type1-img">`
+        imgChild += `<img src=${typeUrl} class="pkmn-type">`
     });
     pkmnType.innerHTML = imgChild;
 };
