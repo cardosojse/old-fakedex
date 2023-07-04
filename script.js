@@ -276,7 +276,7 @@ const pokemons = [
     // },
 ];
 
-const pkmnNum = document.querySelector(".pkmn-num");
+const pkmnNum = document.querySelector(".pkmn-number");
 const pkmnName = document.querySelector(".pkmn-name");
 const pkmnImg = document.querySelector(".pkmn-img");
 const prevBtn = document.querySelector(".prev-btn");
