@@ -276,3 +276,51 @@ const pokemons = [
     // },
 ];
 
+const pkmnNum = document.querySelector(".pkmn-num");
+const pkmnName = document.querySelector(".pkmn-name");
+const pkmnImg = document.querySelector(".pkmn-img");
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+const pkmnType = document.querySelector(".pkmn-type");
+
+let currentPkmn = 0;
+
+window.addEventListener("DOMContentLoaded", function(){
+    const pkmnObj = pokemons[currentPkmn];
+    pkmnNum.textContent = pkmnObj.num;
+    pkmnName.textContent = pkmnObj.name;
+    pkmnImg.src = pkmnObj.img;
+    let imgChild = '';
+    pkmnObj.pokemonTypes.forEach(function (typeUrl) {
+        imgChild += `<img src=${typeUrl} class="type1-img">`
+    });
+    pkmnType.innerHTML = imgChild;
+});
+
+function showData(pkmn){
+    const pkmnObj = pokemons[pkmn];
+    pkmnNum.textContent = pkmnObj.num;
+    pkmnName.textContent = pkmnObj.name;
+    pkmnImg.src = pkmnObj.img;
+    let imgChild = '';
+    pkmnObj.pokemonTypes.forEach(function (typeUrl) {
+        imgChild += `<img src=${typeUrl} class="type1-img">`
+    });
+    pkmnType.innerHTML = imgChild;
+};
+
+prevBtn.addEventListener("click", function(){
+    currentPkmn--;
+    if (currentPkmn < 0){
+        currentPkmn = pokemons.length - 1;
+    }
+    showData(currentPkmn);
+});
+
+nextBtn.addEventListener("click", function(){
+    currentPkmn++;
+    if (currentPkmn > pokemons.length - 1){
+        currentPkmn = 0;
+    }
+    showData(currentPkmn);
+});
