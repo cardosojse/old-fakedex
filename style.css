@@ -19,12 +19,12 @@ body{
                         "a8 a8 a8 a8"
                         "a9 a9 a9 a9";
     align-items: center;
-    border: 5px solid #353535;
+    border: 2px solid #353535;
     border-radius: 20px;
     background-image: url('img/background.png');
     background-position: center;
     margin: 70px auto;
-    padding: 15px;
+    padding: 16px 4px;
     width: 100%;
     max-width: 425px;
     text-align: center;
@@ -72,10 +72,13 @@ body{
 .pkmn-type{
     width: 30%;
 }
+.prev-btn, .next-btn{
+    cursor: pointer;
+}
 .btn{
     width: 50px;
     border: 2px solid #2E8B57;
-    box-shadow: -2px 2px 1px rgba(0,0,0,0.5);
+    box-shadow: -3px 3px 1px rgba(0,0,0,0.5);
     cursor: pointer;
     padding: 4px;
 }
