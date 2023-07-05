@@ -158,7 +158,7 @@ const pokemons = [
         name: 'BELLSPROUT',
         img: 'img/pkmn-img/021.png',
         shinyImg: 'img/pkmn-img/021.png',
-        pokemonTypes: [types.grass],
+        pokemonTypes: [types.poison, types.grass],
     },
     {
         num: '022',
@@ -175,15 +175,15 @@ const pokemons = [
         pokemonTypes: [types.poison, types.grass],
     },
     {
-        num: '038',
-        name: 'MANTINE',
-        img: 'img/pkmn-img/038.png',
-        shinyImg: 'img/pkmn-img/038.png',
+        num: '039',
+        name: 'MANKYTE',
+        img: 'img/pkmn-img/039.png',
+        shinyImg: 'img/pkmn-img/039.png',
         pokemonTypes: [types.water, types.flying],
     },
     {
         num: '040',
-        name: 'SHRIMBODYY',
+        name: 'SHRIMBODY',
         img: 'img/pkmn-img/040.png',
         shinyImg: 'img/pkmn-img/040.png',
         pokemonTypes: [types.ground, types.water],
@@ -330,7 +330,7 @@ const pokemons = [
     },
     {
         num: '080',
-        name: 'CHRITALLYS',
+        name: 'CHRISALYTAR',
         img: 'img/pkmn-img/080.png',
         shinyImg: 'img/pkmn-img/080.png',
         pokemonTypes: [types.dark, types.ground],

@@ -23,11 +23,12 @@ body{
     border-radius: 20px;
     background-image: url('img/background.png');
     background-position: center;
-    margin: 70px auto;
+    margin: 20px auto;
     padding: 16px 4px;
     width: 100%;
     max-width: 425px;
     text-align: center;
+    text-shadow: 1px 1px #353535; 
 }
 .grid-item{
     padding: 10px;
