@@ -11,10 +11,25 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="style.css">
     <title>FAKEDEX</title>
+    <style>
+        @media screen and (max-width: 500px) {
+            body{
+                padding: 8px;
+                height: 100vh;
+            }
+            .grid-container{
+                width: 90%;
+                gap: 2px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="grid-container">
-        
+    <div id="myDiv">
+        <img src="img/pokedex-template.png" class="pokedex-template">
+
+        <div class="grid-container">
+
             <div class="grid-item r1">
                 <h2 class="pkmn-number">#000</h2>
                 <h2 class="pkmn-name">DEFAULT</h2>
@@ -36,7 +51,6 @@
                 <h3>CATEGORIA</h3>
             </div>
         
-            <!-- pokemon's type -->
             <div class="grid-item r6 pkmn-type-container">
                 <!-- <img src="img/pkmn-type/water.png" class="pkmn-type"> -->
             </div>
@@ -45,10 +59,10 @@
                 <h3>HABILIDADE</h3>
             </div>
         
-            <!-- pokemon's data (weight/height) -->
             <div class="grid-item r8">
                 <span>ALTURA</span>
                 <span>PESO</span>
+                <!-- <input type="text" placeholder="nome ou número"> -->
             </div>
         
             <div class="grid-item r9">
@@ -58,6 +72,9 @@
             </div>
         
         </div>
+    
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

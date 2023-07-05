@@ -9,7 +9,24 @@ body{
     height: 100vh;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
 }
+
+#myDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex-template{
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    background-image: url('img/background.png');
+    background-position: center;
+    background-size: cover;
+}
+
 .grid-container{
+    position: absolute;
     display: grid;
     grid-template-areas:"a1 a1 a1 a1"
                         "a2 a3 a3 a4"
@@ -19,12 +36,7 @@ body{
                         "a8 a8 a8 a8"
                         "a9 a9 a9 a9";
     align-items: center;
-    border: 2px solid #353535;
-    border-radius: 20px;
-    background-image: url('img/background.png');
-    background-position: center;
-    margin: 20px auto;
-    padding: 16px 4px;
+    gap: 8px;
     width: 100%;
     max-width: 425px;
     text-align: center;
