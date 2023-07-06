@@ -14,7 +14,7 @@
     font-family: 'Oxanium', cursive;
 }
 body{
-    color: #2E8B57;
+    color: #2e8b57;
     height: 100vh;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
 }
@@ -45,7 +45,7 @@ body{
                         "a8 a8 a8 a8"
                         "a9 a9 a9 a9";
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     width: 100%;
     max-width: 425px;
     text-align: center;
@@ -96,14 +96,18 @@ body{
 }
 .prev-btn, .next-btn{
     cursor: pointer;
+    width: 100%;
 }
+.prev-btn:active, .next-btn:active{
+    width: 90%;
+}   
 .btn{
     width: 50px;
     border: 2px solid #2E8B57;
-    box-shadow: -3px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: -3px 3px 1px rgba(30,30,30,0.5);
     cursor: pointer;
     padding: 4px;
 }
 .btn:active{
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.5);;
+    box-shadow: -1px 1px 1px rgba(30,30,30,0.5);;
 }
