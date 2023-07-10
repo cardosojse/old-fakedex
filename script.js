@@ -129,14 +129,14 @@ const pokemons = [
         num: '017',
         name: 'PICHU',
         img: 'img/pkmn-img/017.png',
-        shinyImg: 'img/pkmn-img/017.png',
+        shinyImg: 'img/pkmn-img-shiny/017_s.png',
         pokemonTypes: [types.electric, types.normal],
     },
     {
         num: '018',
         name: 'PIKACHU',
         img: 'img/pkmn-img/018.png',
-        shinyImg: 'img/pkmn-img/018.png',
+        shinyImg: 'img/pkmn-img-shiny/018_s.png',
         pokemonTypes: [types.electric, types.normal],
     },
     {
@@ -175,6 +175,20 @@ const pokemons = [
         pokemonTypes: [types.poison, types.grass],
     },
     {
+        num: '037',
+        name: 'MANTYKE',
+        img: 'img/pkmn-img/037.png',
+        shinyImg: 'img/pkmn-img-shiny/037_s.png',
+        pokemonTypes: [types.water, types.flying],
+    },
+    {
+        num: '038',
+        name: 'MANTINE',
+        img: 'img/pkmn-img/038.png',
+        shinyImg:'img/pkmn-img-shiny/038_s.png',
+        pokemonTypes: [types.water, types.flying],
+    },
+    {
         num: '039',
         name: 'MANKYTE',
         img: 'img/pkmn-img/039.png',
@@ -192,7 +206,7 @@ const pokemons = [
         num: '041',
         name: 'SHRIMRYU',
         img: 'img/pkmn-img/041.png',
-        shinyImg: 'img/pkmn-img/041.png',
+        shinyImg: 'img/pkmn-img-shiny/041_s.png',
         pokemonTypes: [types.dragon, types.water],
     },
     {
@@ -266,6 +280,27 @@ const pokemons = [
         pokemonTypes: [types.fighting, types.fairy],
     },
     {
+        num: '062',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/062.png',
+        shinyImg: 'img/pkmn-img-shiny/062_s.png',
+        pokemonTypes: [types.rock],
+    },
+    {
+        num: '063',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/063.png',
+        shinyImg: 'img/pkmn-img-shiny/063_s.png',
+        pokemonTypes: [types.rock],
+    },
+    {
+        num: '064',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/064.png',
+        shinyImg: 'img/pkmn-img/064.png',
+        pokemonTypes: [types.rock, types.poison],
+    },
+    {
         num: '065',
         name: 'DRIFLOON',
         img: 'img/pkmn-img/065.png',
@@ -311,7 +346,7 @@ const pokemons = [
         num: '072',
         name: 'MILTANK',
         img: 'img/pkmn-img/072.png',
-        shinyImg: 'img/pkmn-img/072.png',
+        shinyImg: 'img/pkmn-img-shiny/072_s.png',
         pokemonTypes: [types.normal, types.ground],
     },
     {
@@ -320,6 +355,13 @@ const pokemons = [
         img: 'img/pkmn-img/073.png',
         shinyImg: 'img/pkmn-img-shiny/073_s.png',
         pokemonTypes: [types.normal, types.ground],
+    },
+    {
+        num: '074',
+        name: 'NELLAUROS',
+        img: 'img/pkmn-img/074.png',
+        shinyImg: 'img/pkmn-img-shiny/074_s.png',
+        pokemonTypes: [types.fighting, types.ground],
     },
     {
         num: '079',
