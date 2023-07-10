@@ -281,7 +281,7 @@ const pokemons = [
     },
     {
         num: '062',
-        name: 'DEFAULT',
+        name: 'BRIEBBLE',
         img: 'img/pkmn-img/062.png',
         shinyImg: 'img/pkmn-img-shiny/062_s.png',
         pokemonTypes: [types.rock],
