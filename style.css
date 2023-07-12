@@ -1,13 +1,13 @@
 @media screen and (max-width: 500px) {
     body{
-        padding: 1rem;
+        padding: 0.875rem;
         max-height: 700px;
     }
     .pokedex-template{
         height: 688px;
     }
     .grid-container{
-        padding: 1.875rem;
+        padding: 3rem;
         gap: 2px;
     }
 }
