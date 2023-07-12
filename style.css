@@ -1,7 +1,10 @@
 @media screen and (max-width: 500px) {
     body{
-        padding: 4px;
-        max-height: 720px;
+        padding: 1rem;
+        max-height: 700px;
+    }
+    .pokedex-template{
+        height: 688px;
     }
     .grid-container{
         padding: 1.875rem;
@@ -19,7 +22,7 @@
 body{
     color: #2e8b57;
     height: 100vh;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    background: linear-gradient(to left, #6ab7f5, #fff);
 }
 
 #myDiv{
