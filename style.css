@@ -3,11 +3,8 @@
         padding: 0.875rem;
         max-height: 700px;
     }
-    .pokedex-template{
-        height: 675px;
-    }
     .grid-container{
-        padding: 3rem;
+        padding: 3.5rem;
         gap: 2px;
     }
 }
