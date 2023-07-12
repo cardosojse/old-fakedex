@@ -50,7 +50,7 @@ const pokemons = [
     },
     {
         num: '005',
-        name: 'DEFAULT',
+        name: 'FLAMPIPE',
         img: 'img/pkmn-img/005.png',
         shinyImg: 'img/pkmn-img-shiny/005_s.png',
         pokemonTypes: [types.fire],
@@ -115,15 +115,17 @@ const pokemons = [
     // },
     {
         num: '015',
-        name: 'DEFAULT',
+        name: 'SARRECK',
         img: 'img/pkmn-img/015.png',
         shinyImg: 'img/pkmn-img/015.png',
         pokemonTypes: [types.normal, types.dark],
     },
     // {
     //     num: '016',
-    //     name: 'DEFAULT',
+    //     name: 'SARSAFE',
     //     img: '',
+    //     shinyImg: '',
+    //     pokemonTypes: ,
     // },
     {
         num: '017',
@@ -169,7 +171,7 @@ const pokemons = [
     },
     {
         num: '023',
-        name: 'DEFAULT',
+        name: 'TOXXIBELL',
         img: 'img/pkmn-img/023.png',
         shinyImg: 'img/pkmn-img-shiny/023_s.png',
         pokemonTypes: [types.poison, types.grass],
@@ -246,14 +248,14 @@ const pokemons = [
     },
     {
         num: '054',
-        name: 'DEFAULT',
+        name: 'ACEREON',
         img: 'img/pkmn-img/054.png',
         shinyImg: 'img/pkmn-img/054.png',
         pokemonTypes: [types.steel],
     },
     {
         num: '055',
-        name: 'DEFAULT',
+        name: 'SPECTREON',
         img: 'img/pkmn-img/055.png',
         shinyImg: 'img/pkmn-img/055.png',
         pokemonTypes: [types.ghost],
@@ -288,14 +290,14 @@ const pokemons = [
     },
     {
         num: '063',
-        name: 'DEFAULT',
+        name: 'STRELLEPIPE',
         img: 'img/pkmn-img/063.png',
         shinyImg: 'img/pkmn-img-shiny/063_s.png',
         pokemonTypes: [types.rock],
     },
     {
         num: '064',
-        name: 'DEFAULT',
+        name: 'PAVEGMENT',
         img: 'img/pkmn-img/064.png',
         shinyImg: 'img/pkmn-img/064.png',
         pokemonTypes: [types.rock, types.poison],
