@@ -1,6 +1,7 @@
 @media screen and (max-width: 500px) {
     body{
-        padding: 2rem;
+        padding: 1.6rem;
+        max-height: 700px;
     }
     .grid-container{
         padding: 60px 60px 20px;
