@@ -463,6 +463,9 @@ const nextBtn = document.querySelector(".next-btn");
 const pkmnType = document.querySelector(".pkmn-type-container");
 const shinyBtn = document.querySelector(".shiny");
 
+// const searchInput = document.querySelector(".search-input");
+// const searchBtn = document.querySelector(".search-button");
+
 let currentPkmn = 0;
 
 window.addEventListener("DOMContentLoaded", function(){
@@ -509,3 +512,8 @@ shinyBtn.addEventListener("click", function(){
     const pkmnObj = pokemons[currentPkmn];
     pkmnImg.src = pkmnObj.shinyImg;
 });
+
+// searchBtn.addEventListener("click", () => {
+//     let x = searchInput.value;
+//     showData(x);
+// });
