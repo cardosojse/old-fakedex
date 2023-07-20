@@ -97,26 +97,27 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/011_s.png',
         pokemonTypes: [types.electric],
     },
-    // {
-    //     num: '012',
-    //     name: 'DEFAULT',
-    //     img: '',
-    //     shinyImg: '',
-    //     pokemonTypes: ,
-    // },
-    // {
-    //     num: '013',
-    //     name: 'DEFAULT',
-    //     img: '',
-    //     shinyImg: '',
-    //     pokemonTypes: ,
-    // {
-    //     num: '014',
-    //     name: 'DEFAULT',
-    //     img: '',
-    //     shinyImg: '',
-    //     pokemonTypes: ,
-    // },
+    {
+        num: '012',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '013',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '014',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
     {
         num: '015',
         name: 'SARUREK',
@@ -195,6 +196,20 @@ const pokemons = [
         pokemonTypes: [types.water, types.flying],
     },
     {
+        num: '026',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '027',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
         num: '028',
         name: 'STARTICK',
         img: 'img/pkmn-img/028.png',
@@ -202,11 +217,60 @@ const pokemons = [
         pokemonTypes: [types.poison],
     },
     {
+        num: '029',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
         num: '030',
         name: 'JUSPION',
         img: 'img/pkmn-img/030.png',
         shinyImg: 'img/pkmn-img-shiny/030_s.png',
         pokemonTypes: [types.poison, types.fighting],
+    },
+    {
+        num: '031',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '032',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '033',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '034',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '035',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '036',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
     },
     {
         num: '037',
@@ -244,11 +308,53 @@ const pokemons = [
         pokemonTypes: [types.dragon, types.water],
     },
     {
-        num: '041',
+        num: '042',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '043',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '044',
         name: 'DRAKOCEAN',
         img: 'img/pkmn-img/044.png',
         shinyImg: 'img/pkmn-img-shiny/044_s.png',
         pokemonTypes: [types.dragon, types.water],
+    },
+    {
+        num: '045',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '046',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '047',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '048',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
     },
     {
         num: '049',
@@ -298,6 +404,20 @@ const pokemons = [
         img: 'img/pkmn-img/055.png',
         shinyImg: 'img/pkmn-img/055.png',
         pokemonTypes: [types.ghost],
+    },
+    {
+        num: '056',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '057',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
     },
     {
         num: '058',
@@ -370,6 +490,13 @@ const pokemons = [
         pokemonTypes: [types.grass],
     },
     {
+        num: '068',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
         num: '069',
         name: 'CACTTARU',
         img: 'img/pkmn-img/069.png',
@@ -410,6 +537,34 @@ const pokemons = [
         img: 'img/pkmn-img/074.png',
         shinyImg: 'img/pkmn-img-shiny/074_s.png',
         pokemonTypes: [types.fighting, types.ground],
+    },
+    {
+        num: '075',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '076',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '077',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
+    },
+    {
+        num: '078',
+        name: 'DEFAULT',
+        img: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img/placeholder.png',
+        pokemonTypes: [types.normal],
     },
     {
         num: '079',
@@ -463,9 +618,6 @@ const nextBtn = document.querySelector(".next-btn");
 const pkmnType = document.querySelector(".pkmn-type-container");
 const shinyBtn = document.querySelector(".shiny");
 
-// const searchInput = document.querySelector(".search-input");
-// const searchBtn = document.querySelector(".search-button");
-
 let currentPkmn = 0;
 
 window.addEventListener("DOMContentLoaded", function(){
@@ -514,6 +666,6 @@ shinyBtn.addEventListener("click", function(){
 });
 
 // searchBtn.addEventListener("click", () => {
-//     let x = searchInput.value;
+//     let x = searchInput.value + 1;
 //     showData(x);
 // });
