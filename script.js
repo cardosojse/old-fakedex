@@ -189,7 +189,7 @@ const pokemons = [
     },
     {
         num: '025',
-        name: 'GRARCIENNA',
+        name: 'GARCIENNA',
         img: 'img/pkmn-img/025.png',
         shinyImg: 'img/pkmn-img/025.png',
         pokemonTypes: [types.water, types.flying],
@@ -252,7 +252,7 @@ const pokemons = [
     },
     {
         num: '049',
-        name: 'ANKUSHAKU',
+        name: 'ANKUSHAK',
         img: 'img/pkmn-img/049.png',
         shinyImg: 'img/pkmn-img-shiny/049_s.png',
         pokemonTypes: [types.water, types.steel],
@@ -266,14 +266,14 @@ const pokemons = [
     },
     {
         num: '051',
-        name: 'DEFAULT',
+        name: 'NUVECIAN',
         img: 'img/pkmn-img/051.png',
         shinyImg: 'img/pkmn-img/051.png',
         pokemonTypes: [types.fairy, types.electric],
     },
     {
         num: '052',
-        name: 'DEFAULT',
+        name: 'STRATERIM',
         img: 'img/pkmn-img/052.png',
         shinyImg: 'img/pkmn-img/052.png',
         pokemonTypes: [types.fairy, types.fire],
@@ -301,7 +301,7 @@ const pokemons = [
     },
     {
         num: '058',
-        name: 'SARSAFE',
+        name: 'MIZUCLAY',
         img: 'img/pkmn-img/058.png',
         shinyImg: 'img/pkmn-img/058.png',
         pokemonTypes: [types.water] ,
