@@ -57,7 +57,7 @@ const pokemons = [
     },
     {
         num: '006',
-        name: 'MOTORAM',
+        name: 'MOTORAAM',
         img: 'img/pkmn-img/006.png',
         shinyImg: 'img/pkmn-img/006.png',
         pokemonTypes: [types.fire, types.steel],
@@ -71,14 +71,14 @@ const pokemons = [
     },
     {
         num: '008',
-        name: 'DEFAULT',
+        name: 'GUAIAMURI',
         img: 'img/pkmn-img/008.png',
         shinyImg: 'img/pkmn-img-shiny/008_s.png',
         pokemonTypes: [types.water],
     },
     {
         num: '009',
-        name: 'DEFAULT',
+        name: 'PATAIAMUM',
         img: 'img/pkmn-img/009.png',
         shinyImg: 'img/pkmn-img/009.png',
         pokemonTypes: [types.water, types.ground],
@@ -119,18 +119,18 @@ const pokemons = [
     // },
     {
         num: '015',
-        name: 'SARRECK',
+        name: 'SARUREK',
         img: 'img/pkmn-img/015.png',
         shinyImg: 'img/pkmn-img/015.png',
         pokemonTypes: [types.normal, types.dark],
     },
-    // {
-    //     num: '016',
-    //     name: 'SARSAFE',
-    //     img: '',
-    //     shinyImg: '',
-    //     pokemonTypes: ,
-    // },
+    {
+        num: '016',
+        name: 'SAREGURO',
+        img: 'img/pkmn-img/016.png',
+        shinyImg: 'img/pkmn-img/016.png',
+        pokemonTypes: [types.normal, types.dark],
+    },
     {
         num: '017',
         name: 'PICHU',
@@ -202,6 +202,13 @@ const pokemons = [
         pokemonTypes: [types.poison],
     },
     {
+        num: '030',
+        name: 'JUSPION',
+        img: 'img/pkmn-img/030.png',
+        shinyImg: 'img/pkmn-img-shiny/030_s.png',
+        pokemonTypes: [types.poison, types.fighting],
+    },
+    {
         num: '037',
         name: 'MANTYKE',
         img: 'img/pkmn-img/037.png',
@@ -234,6 +241,13 @@ const pokemons = [
         name: 'SHRIMRYU',
         img: 'img/pkmn-img/041.png',
         shinyImg: 'img/pkmn-img-shiny/041_s.png',
+        pokemonTypes: [types.dragon, types.water],
+    },
+    {
+        num: '041',
+        name: 'DRAKOCEAN',
+        img: 'img/pkmn-img/044.png',
+        shinyImg: 'img/pkmn-img-shiny/044_s.png',
         pokemonTypes: [types.dragon, types.water],
     },
     {
