@@ -309,10 +309,10 @@ const pokemons = [
     },
     {
         num: '042',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
-        pokemonTypes: [types.normal],
+        name: 'HORSEA',
+        img: 'img/pkmn-img/042.png',
+        shinyImg: 'img/pkmn-img-shiny/042_s.png',
+        pokemonTypes: [types.water],
     },
     {
         num: '043',
@@ -407,16 +407,16 @@ const pokemons = [
     },
     {
         num: '056',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
-        pokemonTypes: [types.normal],
+        name: 'DRACAREON',
+        img: 'img/pkmn-img/056.png',
+        shinyImg: 'img/pkmn-img-shiny/056_s.png',
+        pokemonTypes: [types.dragon],
     },
     {
         num: '057',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
+        name: 'OMYNEON',
+        img: 'img/pkmn-img/057.png',
+        shinyImg: 'img/pkmn-img-shiny/057_s.png',
         pokemonTypes: [types.normal],
     },
     {
