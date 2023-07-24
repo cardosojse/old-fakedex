@@ -318,7 +318,7 @@ const pokemons = [
         num: '043',
         name: 'SEADRA',
         img: 'img/pkmn-img/043.png',
-        shinyImg: 'img/pkmn-img/043_s.png',
+        shinyImg: 'img/pkmn-img-shiny/043_s.png',
         pokemonTypes: [types.water],
     },
     {
