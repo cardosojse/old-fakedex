@@ -316,14 +316,14 @@ const pokemons = [
     },
     {
         num: '043',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
-        pokemonTypes: [types.normal],
+        name: 'SEADRA',
+        img: 'img/pkmn-img/043.png',
+        shinyImg: 'img/pkmn-img/043_s.png',
+        pokemonTypes: [types.water],
     },
     {
         num: '044',
-        name: 'DRAKOCEAN',
+        name: 'DRACEAN',
         img: 'img/pkmn-img/044.png',
         shinyImg: 'img/pkmn-img-shiny/044_s.png',
         pokemonTypes: [types.dragon, types.water],
@@ -666,6 +666,7 @@ shinyBtn.addEventListener("click", function(){
 });
 
 // searchBtn.addEventListener("click", () => {
+//     forEach element in the array 
 //     let x = searchInput.value + 1;
 //     showData(x);
 // });
