@@ -4,6 +4,13 @@
     }
     .grid-container{
         top: 0px;
+        width: 100%;
+        height: 100%;
+        background-image: url('img/largerBkgd.png');
+        background-size: cover;
+    }
+    .pkmn-type{
+        height: 30px;
     }
 }
 
@@ -31,7 +38,9 @@ body{
     max-width: 480px;
     background-image: url('img/background.png');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 .grid-container{
