@@ -25,6 +25,8 @@ const pokemons = [
         name: 'COATTINY',
         img: 'img/pkmn-img/001.png',
         shinyImg: 'img/pkmn-img-shiny/001_s.png',
+        category: 'Quati',
+        ability: 'Overgrow',
         pokemonTypes: [types.grass],
     },
     {
@@ -32,6 +34,8 @@ const pokemons = [
         name: 'COATTHIEF',
         img: 'img/pkmn-img/002.png',
         shinyImg: 'img/pkmn-img-shiny/002_s.png',
+        category: 'Quati',
+        ability: 'Overgrow',
         pokemonTypes: [types.grass, types.dark],
     },
     {
@@ -39,6 +43,8 @@ const pokemons = [
         name: 'SAQUACYN',
         img: 'img/pkmn-img/003.png',
         shinyImg: 'img/pkmn-img/003.png',
+        category: 'Hunter',
+        ability: 'Overgrow',
         pokemonTypes: [types.grass, types.dark],
     },
     {
@@ -46,6 +52,8 @@ const pokemons = [
         name: 'EMBRITO',
         img: 'img/pkmn-img/004.png',
         shinyImg: 'img/pkmn-img-shiny/004_s.png',
+        category: 'Fawn',
+        ability: 'Blaze',
         pokemonTypes: [types.fire],
     },
     {
@@ -53,6 +61,8 @@ const pokemons = [
         name: 'FLAMPIPE',
         img: 'img/pkmn-img/005.png',
         shinyImg: 'img/pkmn-img-shiny/005_s.png',
+        category: 'Fire Goat',
+        ability: 'Blaze',
         pokemonTypes: [types.fire],
     },
     {
@@ -60,6 +70,8 @@ const pokemons = [
         name: 'MOTORAAM',
         img: 'img/pkmn-img/006.png',
         shinyImg: 'img/pkmn-img/006.png',
+        category: 'Fire Goat',
+        ability: 'Blaze',
         pokemonTypes: [types.fire, types.steel],
     },
     {
@@ -67,6 +79,8 @@ const pokemons = [
         name: 'GUAMIRIN',
         img: 'img/pkmn-img/007.png',
         shinyImg: 'img/pkmn-img-shiny/007_s.png',
+        category: 'Tiny Crab',
+        ability: 'Torrent',
         pokemonTypes: [types.water],
     },
     {
@@ -74,6 +88,8 @@ const pokemons = [
         name: 'GUAIAMURI',
         img: 'img/pkmn-img/008.png',
         shinyImg: 'img/pkmn-img-shiny/008_s.png',
+        category: 'Guaiamum',
+        ability: 'Torrent',
         pokemonTypes: [types.water],
     },
     {
@@ -81,6 +97,8 @@ const pokemons = [
         name: 'PATAIAMUM',
         img: 'img/pkmn-img/009.png',
         shinyImg: 'img/pkmn-img/009.png',
+        category: 'Guaiamum',
+        ability: 'Torrent',
         pokemonTypes: [types.water, types.ground],
     },
     {
@@ -88,6 +106,8 @@ const pokemons = [
         name: 'APEGUI',
         img: 'img/pkmn-img/010.png',
         shinyImg: 'img/pkmn-img/010.png',
+        category: 'Small Monkey',
+        ability: 'Pickup',
         pokemonTypes: [types.normal],
     },
     {
@@ -95,6 +115,8 @@ const pokemons = [
         name: 'APEVOLT',
         img: 'img/pkmn-img/011.png',
         shinyImg: 'img/pkmn-img-shiny/011_s.png',
+        category: 'Golden',
+        ability: 'Volt Absorb',
         pokemonTypes: [types.electric],
     },
     {
@@ -102,6 +124,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -109,6 +133,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -116,6 +142,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -123,6 +151,8 @@ const pokemons = [
         name: 'SARUREK',
         img: 'img/pkmn-img/015.png',
         shinyImg: 'img/pkmn-img/015.png',
+        category: 'Opossum',
+        ability: '',
         pokemonTypes: [types.normal, types.dark],
     },
     {
@@ -130,6 +160,8 @@ const pokemons = [
         name: 'SAREGURO',
         img: 'img/pkmn-img/016.png',
         shinyImg: 'img/pkmn-img/016.png',
+        category: 'Opossum',
+        ability: '',
         pokemonTypes: [types.normal, types.dark],
     },
     {
@@ -137,6 +169,8 @@ const pokemons = [
         name: 'PICHU',
         img: 'img/pkmn-img/017.png',
         shinyImg: 'img/pkmn-img-shiny/017_s.png',
+        category: 'Mouse',
+        ability: 'Lighting Rod',
         pokemonTypes: [types.electric, types.normal],
     },
     {
@@ -144,6 +178,8 @@ const pokemons = [
         name: 'PIKACHU',
         img: 'img/pkmn-img/018.png',
         shinyImg: 'img/pkmn-img-shiny/018_s.png',
+        category: 'Mouse',
+        ability: 'Lighting Rod',
         pokemonTypes: [types.electric, types.normal],
     },
     {
@@ -151,6 +187,8 @@ const pokemons = [
         name: 'CAJUBI',
         img: 'img/pkmn-img/019.png',
         shinyImg: 'img/pkmn-img/019.png',
+        category: 'Caju',
+        ability: '',
         pokemonTypes: [types.grass],
     },
     {
@@ -158,6 +196,8 @@ const pokemons = [
         name: 'MARACAJU',
         img: 'img/pkmn-img/020.png',
         shinyImg: 'img/pkmn-img/020.png',
+        category: 'Aracaju',
+        ability: '',
         pokemonTypes: [types.grass, types.flying],
     },
     {
@@ -165,6 +205,8 @@ const pokemons = [
         name: 'BELLSPROUT',
         img: 'img/pkmn-img/021.png',
         shinyImg: 'img/pkmn-img/021.png',
+        category: 'Flower',
+        ability: '',
         pokemonTypes: [types.poison, types.grass],
     },
     {
@@ -172,6 +214,8 @@ const pokemons = [
         name: 'WEEPINBELL',
         img: 'img/pkmn-img/022.png',
         shinyImg: 'img/pkmn-img-shiny/022_s.png',
+        category: 'Toxic Flower',
+        ability: '',
         pokemonTypes: [types.poison, types.grass],
     },
     {
@@ -179,6 +223,8 @@ const pokemons = [
         name: 'TOXXIBELL',
         img: 'img/pkmn-img/023.png',
         shinyImg: 'img/pkmn-img-shiny/023_s.png',
+        category: 'Toxic Flower',
+        ability: '',
         pokemonTypes: [types.poison, types.grass],
     },
     {
@@ -186,6 +232,8 @@ const pokemons = [
         name: 'JACIENNA',
         img: 'img/pkmn-img/024.png',
         shinyImg: 'img/pkmn-img/024.png',
+        category: 'Water Bird',
+        ability: '',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -193,6 +241,8 @@ const pokemons = [
         name: 'GARCIENNA',
         img: 'img/pkmn-img/025.png',
         shinyImg: 'img/pkmn-img/025.png',
+        category: 'Mean Bird',
+        ability: '',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -200,6 +250,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -207,6 +259,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -214,6 +268,8 @@ const pokemons = [
         name: 'STARTICK',
         img: 'img/pkmn-img/028.png',
         shinyImg: 'img/pkmn-img/028.png',
+        category: 'Red Star',
+        ability: '',
         pokemonTypes: [types.poison],
     },
     {
@@ -221,13 +277,17 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
         num: '030',
-        name: 'JUSPION',
+        name: 'JUNSPION',
         img: 'img/pkmn-img/030.png',
         shinyImg: 'img/pkmn-img-shiny/030_s.png',
+        category: 'Stinger',
+        ability: '',
         pokemonTypes: [types.poison, types.fighting],
     },
     {
@@ -235,6 +295,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -242,6 +304,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -249,6 +313,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -256,6 +322,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -263,6 +331,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -270,6 +340,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -277,6 +349,8 @@ const pokemons = [
         name: 'MANTYKE',
         img: 'img/pkmn-img/037.png',
         shinyImg: 'img/pkmn-img-shiny/037_s.png',
+        category: 'Kite',
+        ability: 'Swift Swim',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -284,6 +358,8 @@ const pokemons = [
         name: 'MANTINE',
         img: 'img/pkmn-img/038.png',
         shinyImg:'img/pkmn-img-shiny/038_s.png',
+        category: 'Kite',
+        ability: 'Swift Swim',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -291,6 +367,8 @@ const pokemons = [
         name: 'MANKYTE',
         img: 'img/pkmn-img/039.png',
         shinyImg: 'img/pkmn-img-shiny/039_s.png',
+        category: 'Kite',
+        ability: 'Swift Swim',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -298,6 +376,8 @@ const pokemons = [
         name: 'SHRIMBODY',
         img: 'img/pkmn-img/040.png',
         shinyImg: 'img/pkmn-img-shiny/040_s.png',
+        category: 'Shrimp',
+        ability: '',
         pokemonTypes: [types.ground, types.water],
     },
     {
@@ -305,6 +385,8 @@ const pokemons = [
         name: 'SHRIMRYU',
         img: 'img/pkmn-img/041.png',
         shinyImg: 'img/pkmn-img-shiny/041_s.png',
+        category: 'Pitu Shrimp',
+        ability: '',
         pokemonTypes: [types.dragon, types.water],
     },
     {
@@ -312,6 +394,8 @@ const pokemons = [
         name: 'HORSEA',
         img: 'img/pkmn-img/042.png',
         shinyImg: 'img/pkmn-img-shiny/042_s.png',
+        category: 'Dragon',
+        ability: 'Swift Swim',
         pokemonTypes: [types.water],
     },
     {
@@ -319,6 +403,8 @@ const pokemons = [
         name: 'SEADRA',
         img: 'img/pkmn-img/043.png',
         shinyImg: 'img/pkmn-img-shiny/043_s.png',
+        category: 'Dragon',
+        ability: 'Swift Swim',
         pokemonTypes: [types.water],
     },
     {
@@ -326,6 +412,8 @@ const pokemons = [
         name: 'DRACEAN',
         img: 'img/pkmn-img/044.png',
         shinyImg: 'img/pkmn-img-shiny/044_s.png',
+        category: 'Dragon',
+        ability: 'Swift Swim',
         pokemonTypes: [types.dragon, types.water],
     },
     {
@@ -333,6 +421,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -340,6 +430,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -347,6 +439,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -354,6 +448,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -361,6 +457,8 @@ const pokemons = [
         name: 'ANKUSHAK',
         img: 'img/pkmn-img/049.png',
         shinyImg: 'img/pkmn-img-shiny/049_s.png',
+        category: 'Ancor',
+        ability: '',
         pokemonTypes: [types.water, types.steel],
     },
     {
@@ -368,6 +466,8 @@ const pokemons = [
         name: 'CUMBULLUS',
         img: 'img/pkmn-img/050.png',
         shinyImg: 'img/pkmn-img/050.png',
+        category: 'Cloud',
+        ability: '',
         pokemonTypes: [types.fairy],
     },
     {
@@ -375,6 +475,8 @@ const pokemons = [
         name: 'NUVECIAN',
         img: 'img/pkmn-img/051.png',
         shinyImg: 'img/pkmn-img/051.png',
+        category: 'Stormy Cloud',
+        ability: '',
         pokemonTypes: [types.fairy, types.electric],
     },
     {
@@ -382,6 +484,8 @@ const pokemons = [
         name: 'STRATERIM',
         img: 'img/pkmn-img/052.png',
         shinyImg: 'img/pkmn-img/052.png',
+        category: 'Sunny Cloud',
+        ability: '',
         pokemonTypes: [types.fairy, types.fire],
     },
     {
@@ -389,6 +493,8 @@ const pokemons = [
         name: 'EEVEE',
         img: 'img/pkmn-img/053.png',
         shinyImg: 'img/pkmn-img/053.png',
+        category: 'Run Away',
+        ability: 'Evolution',
         pokemonTypes: [types.normal],
     },
     {
@@ -396,6 +502,8 @@ const pokemons = [
         name: 'ACEREON',
         img: 'img/pkmn-img/054.png',
         shinyImg: 'img/pkmn-img/054.png',
+        category: 'Acereon',
+        ability: 'Battle Armor',
         pokemonTypes: [types.steel],
     },
     {
@@ -403,6 +511,8 @@ const pokemons = [
         name: 'SPECTREON',
         img: 'img/pkmn-img/055.png',
         shinyImg: 'img/pkmn-img/055.png',
+        category: 'Melancolic',
+        ability: 'Insomnia',
         pokemonTypes: [types.ghost],
     },
     {
@@ -410,6 +520,8 @@ const pokemons = [
         name: 'DRACAREON',
         img: 'img/pkmn-img/056.png',
         shinyImg: 'img/pkmn-img-shiny/056_s.png',
+        category: 'Scally',
+        ability: 'Shed Skin',
         pokemonTypes: [types.dragon],
     },
     {
@@ -417,6 +529,8 @@ const pokemons = [
         name: 'OMYNEON',
         img: 'img/pkmn-img/057.png',
         shinyImg: 'img/pkmn-img-shiny/057_s.png',
+        category: 'Miracle',
+        ability: 'Adaptability',
         pokemonTypes: [types.normal],
     },
     {
@@ -424,6 +538,8 @@ const pokemons = [
         name: 'MIZUCLAY',
         img: 'img/pkmn-img/058.png',
         shinyImg: 'img/pkmn-img/058.png',
+        category: 'Vessel',
+        ability: 'Water Absorb',
         pokemonTypes: [types.water] ,
     },
     {
@@ -431,6 +547,8 @@ const pokemons = [
         name: 'AZURILL',
         img: 'img/pkmn-img/059.png',
         shinyImg: 'img/pkmn-img/059.png',
+        category: 'Polka Dot',
+        ability: 'Thick Fat',
         pokemonTypes: [types.normal, types.fairy],
     },
     {
@@ -438,6 +556,8 @@ const pokemons = [
         name: 'MARILL',
         img: 'img/pkmn-img/060.png',
         shinyImg: 'img/pkmn-img-shiny/060_s.png',
+        category: '',
+        ability: 'Iron Fist',
         pokemonTypes: [types.fighting, types.fairy],
     },
     {
@@ -445,6 +565,8 @@ const pokemons = [
         name: 'PINKURILL',
         img: 'img/pkmn-img/061.png',
         shinyImg: 'img/pkmn-img-shiny/061_s.png',
+        category: '',
+        ability: 'Iron Fist',
         pokemonTypes: [types.fighting, types.fairy],
     },
     {
@@ -452,6 +574,8 @@ const pokemons = [
         name: 'BRIEBBLE',
         img: 'img/pkmn-img/062.png',
         shinyImg: 'img/pkmn-img-shiny/062_s.png',
+        category: 'Pebble',
+        ability: '',
         pokemonTypes: [types.rock],
     },
     {
@@ -459,6 +583,8 @@ const pokemons = [
         name: 'STRELLEPIPE',
         img: 'img/pkmn-img/063.png',
         shinyImg: 'img/pkmn-img-shiny/063_s.png',
+        category: 'Street Rock',
+        ability: '',
         pokemonTypes: [types.rock],
     },
     {
@@ -466,6 +592,8 @@ const pokemons = [
         name: 'PAVEGMENT',
         img: 'img/pkmn-img/064.png',
         shinyImg: 'img/pkmn-img/064.png',
+        category: 'Street Rock',
+        ability: '',
         pokemonTypes: [types.rock, types.poison],
     },
     {
@@ -473,6 +601,8 @@ const pokemons = [
         name: 'DRIFLOON',
         img: 'img/pkmn-img/065.png',
         shinyImg: 'img/pkmn-img/065.png',
+        category: 'Ballon',
+        ability: 'Flare Boost',
         pokemonTypes: [types.ghost, types.fire],
     },
     {
@@ -480,6 +610,8 @@ const pokemons = [
         name: 'DRIFBLIM',
         img: 'img/pkmn-img/066.png',
         shinyImg: 'img/pkmn-img/066.png',
+        category: 'Ballon',
+        ability: 'Flare Boost',
         pokemonTypes: [types.ghost, types.fire],
     },
     {
@@ -487,6 +619,8 @@ const pokemons = [
         name: 'GYMNER',
         img: 'img/pkmn-img/067.png',
         shinyImg: 'img/pkmn-img/067.png',
+        category: 'Flower Seed',
+        ability: '',
         pokemonTypes: [types.grass],
     },
     {
@@ -494,6 +628,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -501,6 +637,8 @@ const pokemons = [
         name: 'CACTTARU',
         img: 'img/pkmn-img/069.png',
         shinyImg: 'img/pkmn-img/069.png',
+        category: 'Fruit',
+        ability: '',
         pokemonTypes: [types.grass],
     },
     {
@@ -508,6 +646,8 @@ const pokemons = [
         name: 'MANCACTTARU',
         img: 'img/pkmn-img/070.png',
         shinyImg: 'img/pkmn-img/070.png',
+        category: 'Cactus',
+        ability: '',
         pokemonTypes: [types.grass, types.psychic],
     },
     {
@@ -515,6 +655,8 @@ const pokemons = [
         name: 'CALFLING',
         img: 'img/pkmn-img/071.png',
         shinyImg: 'img/pkmn-img-shiny/071_s.png',
+        category: 'Calf',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -522,6 +664,8 @@ const pokemons = [
         name: 'MILTANK',
         img: 'img/pkmn-img/072.png',
         shinyImg: 'img/pkmn-img-shiny/072_s.png',
+        category: 'Milk Cow',
+        ability: '',
         pokemonTypes: [types.normal, types.ground],
     },
     {
@@ -529,6 +673,8 @@ const pokemons = [
         name: 'TAURUS',
         img: 'img/pkmn-img/073.png',
         shinyImg: 'img/pkmn-img-shiny/073_s.png',
+        category: 'Farm Bull',
+        ability: '',
         pokemonTypes: [types.normal, types.ground],
     },
     {
@@ -536,6 +682,8 @@ const pokemons = [
         name: 'NELLAUROS',
         img: 'img/pkmn-img/074.png',
         shinyImg: 'img/pkmn-img-shiny/074_s.png',
+        category: 'Rodeo Bull',
+        ability: '',
         pokemonTypes: [types.fighting, types.ground],
     },
     {
@@ -543,6 +691,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -550,6 +700,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -557,6 +709,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -564,6 +718,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/placeholder.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.normal],
     },
     {
@@ -571,6 +727,8 @@ const pokemons = [
         name: 'LARVITAR',
         img: 'img/pkmn-img/079.png',
         shinyImg: 'img/pkmn-img/079.png',
+        category: 'Rough Skin',
+        ability: 'Rough Skin',
         pokemonTypes: [types.dark, types.ground],
     },
     {
@@ -578,6 +736,8 @@ const pokemons = [
         name: 'CHRISALYTAR',
         img: 'img/pkmn-img/080.png',
         shinyImg: 'img/pkmn-img/080.png',
+        category: 'Chrysalis',
+        ability: 'Rough Skin',
         pokemonTypes: [types.dark, types.ground],
     },
     {
@@ -585,6 +745,8 @@ const pokemons = [
         name: 'INDOMITAR',
         img: 'img/pkmn-img/081.png',
         shinyImg: 'img/pkmn-img/081.png',
+        category: 'Indominable',
+        ability: 'Rough Skin',
         pokemonTypes: [types.dark, types.poison],
     },
     {
@@ -592,6 +754,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/082.png',
         shinyImg: 'img/pkmn-img/082.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.dragon],
     },
     {
@@ -599,6 +763,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/083.png',
         shinyImg: 'img/pkmn-img/083.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.dragon],
     },
     {
@@ -606,6 +772,8 @@ const pokemons = [
         name: 'DEFAULT',
         img: 'img/pkmn-img/084.png',
         shinyImg: 'img/pkmn-img/084.png',
+        category: '',
+        ability: '',
         pokemonTypes: [types.dragon],
     },
 ];
@@ -616,11 +784,14 @@ const pkmnImg = document.querySelector(".pkmn-img");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const pkmnType = document.querySelector(".pkmn-type-container");
+const pkmnCategory = document.querySelector(".pkmn-category");
+const pkmnAbility = document.querySelector(".pkmn-ability");
 const shinyBtn = document.querySelector(".shiny");
 const searchBtn = document.querySelector(".search-btn");
 const searchInput = document.querySelector(".search-input");
 const submitInput = document.querySelector(".submit-input");
 const aside = document.getElementsByTagName("aside")[0];
+
 
 let currentPkmn = 0;
 
@@ -629,6 +800,8 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnNum.textContent = pkmnObj.num;
     pkmnName.textContent = pkmnObj.name;
     pkmnImg.src = pkmnObj.img;
+    pkmnCategory.textContent = pkmnObj.category;
+    pkmnAbility.textContent = pkmnObj.ability;
     let imgChild = '';
     pkmnObj.pokemonTypes.forEach(function (typeUrl) {
         imgChild += `<img src=${typeUrl} class="pkmn-type">`
@@ -641,6 +814,9 @@ function showData(pkmn){
     pkmnNum.textContent = pkmnObj.num;
     pkmnName.textContent = pkmnObj.name;
     pkmnImg.src = pkmnObj.img;
+    pkmnCategory.textContent = pkmnObj.category;
+    pkmnAbility.textContent = pkmnObj.ability;
+    // display Pokemon type
     let imgChild = '';
     pkmnObj.pokemonTypes.forEach(function (typeUrl) {
         imgChild += `<img src=${typeUrl} class="pkmn-type">`
@@ -679,6 +855,7 @@ submitInput.addEventListener("click", () => {
         alert("Not a number");
     }
     let pkmnId = searchInput.value - 1;
+    currentPkmn = pkmnId;
     showData(pkmnId);
     searchInput.value = "";
 })

@@ -29,6 +29,15 @@
         left: 0;
     }
 }
+@media screen and (min-width: 800px) {
+    .pokedex-template{
+        position: relative;
+    }
+    .grid-container .r0{
+        position: absolute;
+        top: -5%;
+    }
+}
 
 *{
     margin: 0;
@@ -67,7 +76,7 @@ body{
                         "a5 a5 a5 a5"
                         "a6 a6 a6 a6"
                         "a7 a7 a7 a7"
-                        "a8 a8 a8 a8"
+                        /* "a8 a8 a8 a8" */
                         "a9 a9 a9 a9"
                         "a10 a10 a10 a10";
     align-items: center;
@@ -105,11 +114,11 @@ body{
 .r7{
     grid-area: a7;
 }
-.r8{
+/* .r8{
     grid-area: a8;
     display: flex;
     justify-content: space-evenly;
-}
+} */
 .r9{
     grid-area: a9;
     display: flex;
