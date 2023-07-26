@@ -617,6 +617,10 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const pkmnType = document.querySelector(".pkmn-type-container");
 const shinyBtn = document.querySelector(".shiny");
+const searchBtn = document.querySelector(".search-btn");
+const searchInput = document.querySelector(".search-input");
+const submitInput = document.querySelector(".submit-input");
+const aside = document.getElementsByTagName("aside")[0];
 
 let currentPkmn = 0;
 
@@ -665,8 +669,17 @@ shinyBtn.addEventListener("click", function(){
     pkmnImg.src = pkmnObj.shinyImg;
 });
 
-// searchBtn.addEventListener("click", () => {
-//     forEach element in the array 
-//     let x = searchInput.value + 1;
-//     showData(x);
-// });
+searchBtn.addEventListener("click", () => {
+    aside.classList.add("active")
+});
+
+submitInput.addEventListener("click", () => {
+    aside.classList.remove("active");
+    if (isNaN(searchInput.value)){
+        alert("Not a number");
+    }
+    let pkmnId = searchInput.value - 1;
+    showData(pkmnId);
+    searchInput.value = "";
+})
+

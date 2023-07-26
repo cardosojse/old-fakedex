@@ -9,8 +9,24 @@
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
-    .pkmn-type{
-        height: 30px;
+    aside{
+        position: fixed;
+        top: 0;
+        left: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    aside .search-input{
+        width: 80%;
+        padding: 12px;
+    }
+    aside .submit-input{
+        width: 20%;
+        padding: 12px;
+    }
+    .active{
+        left: 0;
     }
 }
 
@@ -52,9 +68,10 @@ body{
                         "a6 a6 a6 a6"
                         "a7 a7 a7 a7"
                         "a8 a8 a8 a8"
-                        "a9 a9 a9 a9";
+                        "a9 a9 a9 a9"
+                        "a10 a10 a10 a10";
     align-items: center;
-    gap: 12px;
+    gap: 8px;
     width: 100%;
     max-width: 425px;
     text-align: center;
@@ -65,6 +82,7 @@ body{
 }
 .r1{
     grid-area: a1;
+    position: relative;
 }
 .r2{
     grid-area: a2;
@@ -97,6 +115,14 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+.r0{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.r0 img{
+    width: 70%;
+}
 .pkmn-img{
     width: 100%;
 }
@@ -119,4 +145,23 @@ body{
 }
 .btn:active{
     box-shadow: -1px 1px 1px rgba(30,30,30,0.5);;
+}
+aside{
+    grid-area: a10;
+    width: 100%;
+    display: none;
+    padding-top: 10px;
+}
+aside input{
+    padding: 12px;
+}
+aside .search-input{
+    width: 70%;
+}
+aside .search-btn{
+    width: 30%;
+}
+.active{
+    display: flex;
+    justify-content: center;
 }
