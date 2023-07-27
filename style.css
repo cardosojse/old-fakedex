@@ -1,32 +1,30 @@
 @media screen and (max-width: 600px) {
+    #myDiv{
+        height: 100vh;
+    }
     .pokedex-template{
         display: none;
     }
     .grid-container{
         top: 0px;
         width: 100%;
+        height: 100%;
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
     aside{
         position: fixed;
         top: 0;
-        padding: 2px 0px 0 2px;
     }
     aside .search-input{
-        padding: 12px;
         border-radius: 4px;
         border: 1px solid #2E8B57;
     }
     aside .submit-input{
-        padding: 12px;
         border: none;
         background-color: #2E8B57;
         border-radius: 6px;
         color: #fff;
-    }
-    .active{
-        left: 0;
     }
 }
 
@@ -158,19 +156,18 @@ body{
 }
 aside{
     grid-area: a10;
-    width: 100%;
     display: none;
 }
 aside input{
     padding: 12px;
 }
-aside .search-input{
-    width: 50%;
-    /* padding: 12px;
+/* aside .search-input{
+    padding: 12px;
     border-radius: 2px;
-    border: 1px solid #2E8B57; */
+    border: 1px solid #2E8B57;
+    
 }
-/* aside .submit-input{
+aside .submit-input{
     padding: 6px;
     border: none;
     background-color: #2E8B57;
@@ -179,4 +176,6 @@ aside .search-input{
 } */
 .active{
     display: flex;
+    justify-content: center;
+    gap: 3px;
 }
