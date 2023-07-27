@@ -3,9 +3,10 @@
         display: none;
     }
     .grid-container{
+        position: fixed;
         top: 0px;
         width: 100%;
-        height: 90%;
+        height: 100%;
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
