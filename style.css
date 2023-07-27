@@ -1,14 +1,11 @@
 @media screen and (max-width: 600px) {
-    #myDiv{
-        height: 100vh;
-    }
     .pokedex-template{
         display: none;
     }
     .grid-container{
         top: 0px;
         width: 100%;
-        height: 100%;
+        height: 90%;
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
