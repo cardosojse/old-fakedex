@@ -5,14 +5,12 @@
     .grid-container{
         top: 0px;
         width: 100%;
-        height: 100%;
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
     aside{
         position: fixed;
         top: 0;
-        left: 100%;
         padding: 2px 0px 0 2px;
     }
     aside .search-input{
@@ -24,7 +22,7 @@
         padding: 12px;
         border: none;
         background-color: #2E8B57;
-        border-radius: 8px;
+        border-radius: 6px;
         color: #fff;
     }
     .active{
