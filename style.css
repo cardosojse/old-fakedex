@@ -6,7 +6,7 @@
         top: 0px;
         height: 90%;
         background-image: url('img/largerBkgd.png');
-        background-size: cover;
+        background-size: contain;
     }
     aside{
         position: fixed;
