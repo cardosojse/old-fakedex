@@ -4,7 +4,7 @@
     }
     .grid-container{
         top: 0px;
-        height: 90%;
+        height: 100%;
         background-image: url('img/largerBkgd.png');
         background-size: contain;
     }
