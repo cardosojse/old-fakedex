@@ -3,7 +3,7 @@
         display: none;
     }
     .grid-container{
-        top: 0px;
+        top: 0;
         height: 100%;
         background-image: url('img/largerBkgd.png');
         background-size: contain;
@@ -41,9 +41,16 @@
     box-sizing: border-box;
     font-family: 'Oxanium', cursive;
 }
+html{
+    overflow: hidden;
+    width: 100%;
+}
 body{
     color: #2e8b57;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
 }
 
