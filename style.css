@@ -6,7 +6,7 @@
         top: 0;
         height: 100%;
         background-image: url('img/largerBkgd.png');
-        background-size: contain;
+        background-size: cover;
     }
     aside{
         position: fixed;
@@ -51,7 +51,6 @@ body{
     height: 100%;
     position: fixed;
     overflow-y: scroll;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
 }
 
 #myDiv{
