@@ -8,9 +8,6 @@
         background-image: url('img/largerBkgd.png');
         background-size: cover;
     }
-    .next-btn, .prev-btn{
-        height: 60px;
-    }
     aside{
         position: fixed;
         top: 0;
