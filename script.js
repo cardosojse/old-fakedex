@@ -670,7 +670,7 @@ const pokemons = [
     },
     {
         num: '073',
-        name: 'DEFAULT',
+        name: 'ROSAGARTA',
         img: 'img/pkmn-img/073.png',
         shinyImg: 'img/pkmn-img-shiny/073_s.png',
         category: 'Larva',
@@ -679,7 +679,7 @@ const pokemons = [
     },
     {
         num: '074',
-        name: 'DEFAULT',
+        name: 'HESALYDA',
         img: 'img/pkmn-img/074.png',
         shinyImg: 'img/pkmn-img-shiny/074_s.png',
         category: 'Chrysalis',
@@ -692,7 +692,7 @@ const pokemons = [
         img: 'img/pkmn-img/075.png',
         shinyImg: 'img/pkmn-img-shiny/075_s.png',
         category: 'Mariposa',
-        ability: 'Dazziling',
+        ability: 'Dazzling',
         pokemonTypes: [types.bug, types.psychic],
     },
     {
