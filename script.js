@@ -178,6 +178,7 @@ const pokemons = [
         name: 'PIKACHU',
         img: 'img/pkmn-img/018.png',
         shinyImg: 'img/pkmn-img-shiny/018_s.png',
+        femaleImg: 'img/pkmn-img-female/018_f.png',
         category: 'Mouse',
         ability: 'Lighting Rod',
         pokemonTypes: [types.electric, types.normal],
@@ -283,7 +284,7 @@ const pokemons = [
     },
     {
         num: '030',
-        name: 'AMARON',
+        name: 'ARAMARON',
         img: 'img/pkmn-img/030.png',
         shinyImg: 'img/pkmn-img-shiny/030_s.png',
         category: 'Thread',
@@ -304,7 +305,7 @@ const pokemons = [
         name: 'COROCHI',
         img: 'img/pkmn-img/032.png',
         shinyImg: 'img/pkmn-img-shiny/032_s.png',
-        category: '',
+        category: 'Roach',
         ability: 'Run Away',
         pokemonTypes: [types.bug, types.normal],
     },
@@ -313,7 +314,7 @@ const pokemons = [
         name: 'CACOROCHI',
         img: 'img/pkmn-img/033.png',
         shinyImg: 'img/pkmn-img/033.png',
-        category: '',
+        category: 'Super Roach',
         ability: 'Toxic Boost',
         pokemonTypes: [types.bug, types.ground],
     },
@@ -337,21 +338,21 @@ const pokemons = [
     },
     {
         num: '036',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
+        name: 'SIRENBY',
+        img: 'img/pkmn-img/036.png',
+        shinyImg: 'img/pkmn-img-shiny/036_s.png',
         category: '',
-        ability: '',
-        pokemonTypes: [types.normal],
+        ability: 'Sap Sipper',
+        pokemonTypes: [types.water],
     },
     {
         num: '037',
-        name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
+        name: 'SIRENIA',
+        img: 'img/pkmn-img/037.png',
+        shinyImg: 'img/pkmn-img-shiny/037_s.png',
         category: '',
-        ability: '',
-        pokemonTypes: [types.normal],
+        ability: 'Sap Sipper',
+        pokemonTypes: [types.water, types.ice],
     },
     {
         num: '038',
@@ -511,6 +512,7 @@ const pokemons = [
         name: 'EEVEE',
         img: 'img/pkmn-img/055.png',
         shinyImg: 'img/pkmn-img-shiny/055_s.png',
+        femaleImg: 'img/pkmn-img-female/055_f.png',
         category: 'Evolution',
         ability: 'Run Away',
         pokemonTypes: [types.normal],
@@ -547,6 +549,7 @@ const pokemons = [
         name: 'OMYNEON',
         img: 'img/pkmn-img/059.png',
         shinyImg: 'img/pkmn-img-shiny/059_s.png',
+        femaleImg: 'img/pkmn-img-female/059_f.png',
         category: 'Miracle',
         ability: 'Adaptability',
         pokemonTypes: [types.normal],
@@ -868,11 +871,11 @@ const pkmnType = document.querySelector(".pkmn-type-container");
 const pkmnCategory = document.querySelector(".pkmn-category");
 const pkmnAbility = document.querySelector(".pkmn-ability");
 const shinyBtn = document.querySelector(".shiny");
+const changeSexBtn = document.querySelector(".change-sex");
 const searchBtn = document.querySelector(".search-btn");
 const searchInput = document.querySelector(".search-input");
 const submitInput = document.querySelector(".submit-input");
 const aside = document.getElementsByTagName("aside")[0];
-
 
 let currentPkmn = 0;
 
@@ -887,7 +890,7 @@ window.addEventListener("DOMContentLoaded", function(){
     pkmnObj.pokemonTypes.forEach(function (typeUrl) {
         imgChild += `<img src=${typeUrl} class="pkmn-type">`
     });
-    pkmnType.innerHTML = imgChild;
+    pkmnType.innerHTML += imgChild;
 });
 
 function showData(pkmn){
@@ -903,6 +906,7 @@ function showData(pkmn){
         imgChild += `<img src=${typeUrl} class="pkmn-type">`
     });
     pkmnType.innerHTML = imgChild;
+
 };
 
 prevBtn.addEventListener("click", function(){
@@ -924,6 +928,11 @@ nextBtn.addEventListener("click", function(){
 shinyBtn.addEventListener("click", function(){
     const pkmnObj = pokemons[currentPkmn];
     pkmnImg.src = pkmnObj.shinyImg;
+});
+
+changeSexBtn.addEventListener("click", () => {
+    const pkmnObj = pokemons[currentPkmn];
+    pkmnImg.src = pkmnObj.femaleImg;
 });
 
 searchBtn.addEventListener("click", () => {
