@@ -137,7 +137,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/012_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Bird',
-        ability: 'Big Pecks',
+        ability: 'Big Pecks/Moxie',
         pokemonTypes: [types.flying, types.normal],
     },
     {
@@ -147,7 +147,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/013_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Hawk',
-        ability: 'Big Pecks',
+        ability: 'Big Pecks/Moxie',
         pokemonTypes: [types.flying, types.fighting],
     },
     {
@@ -157,7 +157,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/014_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Hawk',
-        ability: 'Big Pecks',
+        ability: 'Big Pecks/Moxie',
         pokemonTypes: [types.flying, types.fighting],
     },
     {
@@ -352,21 +352,21 @@ const pokemons = [
     },
     {
         num: '034',
-        name: 'DEFAULT',
+        name: 'BUDSLY',
         img: 'img/pkmn-img/034.png',
         shinyImg: 'img/pkmn-img-shiny/034_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
-        category: '',
+        category: 'Bud',
         ability: 'Leaf Guard',
         pokemonTypes: [types.grass],
     },
     {
         num: '035',
-        name: 'DEFAULT',
+        name: 'TRULYWOODO',
         img: 'img/pkmn-img/035.png',
         shinyImg: 'img/pkmn-img-shiny/035_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
-        category: '',
+        category: 'Tree',
         ability: 'Leaf Guard',
         pokemonTypes: [types.grass],
     },
@@ -376,8 +376,8 @@ const pokemons = [
         img: 'img/pkmn-img/036.png',
         shinyImg: 'img/pkmn-img-shiny/036_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
-        category: '',
-        ability: 'Sap Sipper',
+        category: 'Manatee',
+        ability: 'Sap Sipper/Thick Fat',
         pokemonTypes: [types.water],
     },
     {
@@ -386,8 +386,8 @@ const pokemons = [
         img: 'img/pkmn-img/037.png',
         shinyImg: 'img/pkmn-img-shiny/037_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
-        category: '',
-        ability: 'Sap Sipper',
+        category: 'Manatee',
+        ability: 'Sap Sipper/Thick Fat',
         pokemonTypes: [types.water, types.ice],
     },
     {
@@ -397,7 +397,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/038_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Alligator',
-        ability: 'Intimidate',
+        ability: 'Intimidate/Anger Point',
         pokemonTypes: [types.water, types.dark],
     },
     {
@@ -407,7 +407,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/039_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Kite',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Water Absorb',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -417,7 +417,7 @@ const pokemons = [
         shinyImg:'img/pkmn-img-shiny/040_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Kite',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Water Absorb',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -427,7 +427,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/041_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Kite',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Water Absorb',
         pokemonTypes: [types.water, types.flying],
     },
     {
@@ -457,7 +457,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/044_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Dragon',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Sniper',
         pokemonTypes: [types.water],
     },
     {
@@ -467,7 +467,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/045_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Dragon',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Sniper',
         pokemonTypes: [types.water],
     },
     {
@@ -477,7 +477,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/046_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Dragon',
-        ability: 'Swift Swim',
+        ability: 'Swift Swim/Sniper',
         pokemonTypes: [types.dragon, types.water],
     },
     {
@@ -567,7 +567,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/055_s.png',
         femaleImg: 'img/pkmn-img-female/055_f.png',
         category: 'Evolution',
-        ability: 'Run Away',
+        ability: 'Run Away/Adaptability',
         pokemonTypes: [types.normal],
     },
     {
@@ -637,7 +637,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img/062.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Polka Dot',
-        ability: 'Thick Fat',
+        ability: 'Thick Fat/Huge Power',
         pokemonTypes: [types.normal, types.fairy],
     },
     {
@@ -647,7 +647,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/063_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Punching',
-        ability: 'Iron Fist',
+        ability: 'Iron Fist/Huge Power',
         pokemonTypes: [types.fighting, types.fairy],
     },
     {
@@ -657,7 +657,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/064_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Punching',
-        ability: 'Iron Fist',
+        ability: 'Iron Fist/Huge Power',
         pokemonTypes: [types.fighting, types.fairy],
     },
     {
@@ -817,7 +817,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/080_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Calf',
-        ability: 'Thick Fat',
+        ability: 'Thick Fat/Scrappy',
         pokemonTypes: [types.normal],
     },
     {
@@ -827,7 +827,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/081_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Milk Cow',
-        ability: 'Thick Fat',
+        ability: 'Thick Fat/Cud Chew',
         pokemonTypes: [types.normal, types.ground],
     },
     {
@@ -837,7 +837,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/082_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Farm Bull',
-        ability: 'Cud Chew',
+        ability: 'Cud Chew/Moxie',
         pokemonTypes: [types.normal, types.ground],
     },
     {
@@ -847,7 +847,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/083_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Rodeo Bull',
-        ability: 'Cud Chew',
+        ability: 'Cud Chew/Moxie',
         pokemonTypes: [types.fighting, types.ground],
     },
     {

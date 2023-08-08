@@ -75,8 +75,8 @@ body{
     grid-template-areas:"a1 a1 a1 a1"
                         "a2 a3 a3 a4"
                         "a5 a5 a5 a5"
-                        /* "a8 a8 a8 a8" */
                         "a6 a6 a6 a6"
+                        /* "a8 a8 a8 a8" */
                         "a7 a7 a7 a7"
                         "a9 a9 a9 a9"
                         "a10 a10 a10 a10";
@@ -109,7 +109,7 @@ body{
 .r6{
     grid-area: a6;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 2px;
 }
 .r7{
@@ -136,6 +136,11 @@ body{
 }
 .pkmn-type{
     width: 30%;
+}
+.pkmn-type-container{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
 }
 .prev-btn, .next-btn{
     cursor: pointer;
