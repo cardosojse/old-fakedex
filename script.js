@@ -950,6 +950,16 @@ const pokemons = [
         ability: 'Intimidate',
         pokemonTypes: [types.dragon],
     },
+    {
+        num: '096',
+        name: 'MAGIKING',
+        img: 'img/pkmn-img/096.png',
+        shinyImg: 'img/pkmn-img-shiny/096_s.png',
+        femaleImg: 'img/pkmn-img-female/096_f.png',
+        category: 'Ancestor',
+        ability: 'Multiscale/Swift Swim',
+        pokemonTypes: [types.water, types.fighting],
+    },
 ];
 
 const pkmnNum = document.querySelector(".pkmn-number");
