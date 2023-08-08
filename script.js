@@ -547,7 +547,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img/053.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Stormy Cloud',
-        ability: 'Cloud Nine',
+        ability: 'Wind Power',
         pokemonTypes: [types.fairy, types.electric],
     },
     {
@@ -557,7 +557,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img/054.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Sunny Cloud',
-        ability: 'Cloud Nine',
+        ability: 'Wind Power',
         pokemonTypes: [types.fairy, types.fire],
     },
     {
