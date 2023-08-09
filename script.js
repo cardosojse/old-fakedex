@@ -830,6 +830,7 @@ const pokemons = [
     {
         num: '081',
         name: 'MILTANK',
+        form: 'Regional Form',
         img: 'img/pkmn-img/081.png',
         shinyImg: 'img/pkmn-img-shiny/081_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -851,7 +852,6 @@ const pokemons = [
     {
         num: '083',
         name: 'NELLAUROS',
-        form: 'Regional Form',
         img: 'img/pkmn-img/083.png',
         shinyImg: 'img/pkmn-img-shiny/083_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
