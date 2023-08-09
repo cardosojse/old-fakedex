@@ -183,6 +183,7 @@ const pokemons = [
     {
         num: '017',
         name: 'PICHU',
+        form: 'Regional Form',
         img: 'img/pkmn-img/017.png',
         shinyImg: 'img/pkmn-img-shiny/017_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -193,6 +194,7 @@ const pokemons = [
     {
         num: '018',
         name: 'PIKACHU',
+        form: 'Regional Form',
         img: 'img/pkmn-img/018.png',
         shinyImg: 'img/pkmn-img-shiny/018_s.png',
         femaleImg: 'img/pkmn-img-female/018_f.png',
@@ -243,6 +245,7 @@ const pokemons = [
     {
         num: '023',
         name: 'WEEPINBELL',
+        form: 'Regional Form',
         img: 'img/pkmn-img/023.png',
         shinyImg: 'img/pkmn-img-shiny/023_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -563,6 +566,7 @@ const pokemons = [
     {
         num: '055',
         name: 'EEVEE',
+        form: 'Partner Eevee',
         img: 'img/pkmn-img/055.png',
         shinyImg: 'img/pkmn-img-shiny/055_s.png',
         femaleImg: 'img/pkmn-img-female/055_f.png',
@@ -643,6 +647,7 @@ const pokemons = [
     {
         num: '063',
         name: 'MARILL',
+        form: 'Regional Form',
         img: 'img/pkmn-img/063.png',
         shinyImg: 'img/pkmn-img-shiny/063_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -693,6 +698,7 @@ const pokemons = [
     {
         num: '068',
         name: 'DRIFLOON',
+        form: 'Regional Form',
         img: 'img/pkmn-img/068.png',
         shinyImg: 'img/pkmn-img/068.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -703,6 +709,7 @@ const pokemons = [
     {
         num: '069',
         name: 'DRIFBLIM',
+        form: 'Regional Form',
         img: 'img/pkmn-img/069.png',
         shinyImg: 'img/pkmn-img/069.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -833,6 +840,7 @@ const pokemons = [
     {
         num: '082',
         name: 'TAURUS',
+        form: 'Regional Form',
         img: 'img/pkmn-img/082.png',
         shinyImg: 'img/pkmn-img-shiny/082_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -843,6 +851,7 @@ const pokemons = [
     {
         num: '083',
         name: 'NELLAUROS',
+        form: 'Regional Form',
         img: 'img/pkmn-img/083.png',
         shinyImg: 'img/pkmn-img-shiny/083_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -893,6 +902,7 @@ const pokemons = [
     {
         num: '088',
         name: 'LARVITAR',
+        form: 'Regional Form',
         img: 'img/pkmn-img/088.png',
         shinyImg: 'img/pkmn-img/088.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -965,6 +975,7 @@ const pokemons = [
 const pkmnNum = document.querySelector(".pkmn-number");
 const pkmnName = document.querySelector(".pkmn-name");
 const pkmnImg = document.querySelector(".pkmn-img");
+const pkmnForm = document.querySelector(".pkmn-form");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const pkmnType = document.querySelector(".pkmn-type-container");
@@ -983,6 +994,7 @@ window.addEventListener("DOMContentLoaded", function(){
     const pkmnObj = pokemons[currentPkmn];
     pkmnNum.textContent = pkmnObj.num;
     pkmnName.textContent = pkmnObj.name;
+    pkmnForm.textContent = pkmnObj.form;
     pkmnImg.src = pkmnObj.img;
     pkmnCategory.textContent = pkmnObj.category;
     pkmnAbility.textContent = pkmnObj.ability;
@@ -997,6 +1009,7 @@ function showData(pkmn){
     const pkmnObj = pokemons[pkmn];
     pkmnNum.textContent = pkmnObj.num;
     pkmnName.textContent = pkmnObj.name;
+    pkmnForm.textContent = pkmnObj.form;
     pkmnImg.src = pkmnObj.img;
     pkmnCategory.textContent = pkmnObj.category;
     pkmnAbility.textContent = pkmnObj.ability;
