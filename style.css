@@ -144,13 +144,15 @@ body{
 }
 .prev-btn, .next-btn{
     cursor: pointer;
-    width: 100%;
+    width: 60px;
+    height: 60px;
 }
 .prev-btn:active, .next-btn:active{
     width: 90%;
 }   
 .btn{
-    width: 50px;
+    width: 60px;
+    height: 60px;
     border: 2px solid #2E8B57;
     box-shadow: -3px 3px 1px rgba(30,30,30,0.5);
     cursor: pointer;
