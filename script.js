@@ -511,7 +511,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/049_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Jellyfish',
-        ability: 'Poison Point',
+        ability: 'Poison Point/Static',
         pokemonTypes: [types.poison, types.electric],
     },
     {
@@ -522,7 +522,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/050_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Jellyfish',
-        ability: 'Poison Point',
+        ability: 'Poison Point/Static',
         pokemonTypes: [types.poison, types.electric],
     },
     {
