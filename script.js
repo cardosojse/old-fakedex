@@ -506,6 +506,7 @@ const pokemons = [
     {
         num: '049',
         name: 'TENTACOOL',
+        form: 'Regional Form',
         img: 'img/pkmn-img/049.png',
         shinyImg: 'img/pkmn-img-shiny/049_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -516,6 +517,7 @@ const pokemons = [
     {
         num: '050',
         name: 'TENTACRUEL',
+        form: 'Regional Form',
         img: 'img/pkmn-img/050.png',
         shinyImg: 'img/pkmn-img-shiny/050_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
