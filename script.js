@@ -741,7 +741,7 @@ const pokemons = [
     },
     {
         num: '072',
-        name: 'DEFAULT',
+        name: 'OXIRÁ',
         img: 'img/pkmn-img/072.png',
         shinyImg: 'img/pkmn-img/072.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
