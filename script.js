@@ -619,7 +619,7 @@ const pokemons = [
         num: '060',
         name: 'MURIMIZU',
         img: 'img/pkmn-img/060.png',
-        shinyImg: 'img/pkmn-img/060.png',
+        shinyImg: 'img/pkmn-img-shiny/060_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Vessel',
         ability: 'Water Veil',
@@ -629,7 +629,7 @@ const pokemons = [
         num: '061',
         name: 'MIZUCLAY',
         img: 'img/pkmn-img/061.png',
-        shinyImg: 'img/pkmn-img/061.png',
+        shinyImg: 'img/pkmn-img-shiny/061_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Vessel',
         ability: 'Water Absorb',
@@ -925,7 +925,7 @@ const pokemons = [
         num: '090',
         name: 'INDOMITAR',
         img: 'img/pkmn-img/090.png',
-        shinyImg: 'img/pkmn-img/090.png',
+        shinyImg: 'img/pkmn-img-shiny/090_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Indominable',
         ability: 'Rough Skin',
@@ -955,7 +955,7 @@ const pokemons = [
         num: '093',
         name: 'KALARUDON',
         img: 'img/pkmn-img/093.png',
-        shinyImg: 'img/pkmn-img/093.png',
+        shinyImg: 'img/pkmn-img-shiny/093_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Lizard',
         ability: 'Intimidate',
@@ -1135,5 +1135,4 @@ submitInput.addEventListener("click", () => {
     currentPkmn = pkmnId;
     showData(pkmnId);
     searchInput.value = "";
-})
-
+});
