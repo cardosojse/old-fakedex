@@ -1050,7 +1050,6 @@ const submitInput = document.querySelector(".submit-input");
 const aside = document.getElementsByTagName("aside")[0];
 
 let currentPkmn = 0;
-
 window.addEventListener("DOMContentLoaded", function(){
     const pkmnObj = pokemons[currentPkmn];
     pkmnNum.textContent = pkmnObj.num;
