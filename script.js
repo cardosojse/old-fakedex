@@ -370,7 +370,7 @@ const pokemons = [
         shinyImg: 'img/pkmn-img-shiny/035_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         category: 'Gardner',
-        ability: 'Leaf Guard',
+        ability: 'Green Thumb',
         pokemonTypes: [types.grass],
     },
     {
@@ -1029,6 +1029,7 @@ const pokemons = [
         img: 'img/pkmn-img/100.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
+        altImg: 'img/alt-img/100_e.png',
         category: 'Stray Dog',
         ability: 'Eternal Soul',
         pokemonTypes: [types.dark],
@@ -1055,7 +1056,7 @@ const pokemons = [
     },
     {
         num: '103',
-        name: 'DEFAULT',
+        name: 'PHANTERRION',
         img: 'img/pkmn-img/103.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -1086,12 +1087,15 @@ const pkmnCategory = document.querySelector(".pkmn-category");
 const pkmnAbility = document.querySelector(".pkmn-ability");
 const shinyBtn = document.querySelector(".shiny");
 const changeSexBtn = document.querySelector(".change-sex");
+const alternativeBtn = document.querySelector(".alternative");
 const searchBtn = document.querySelector(".search-btn");
 const searchInput = document.querySelector(".search-input");
 const submitInput = document.querySelector(".submit-input");
 const aside = document.getElementsByTagName("aside")[0];
 
 let currentPkmn = 0;
+let thisValue = true;
+
 window.addEventListener("DOMContentLoaded", function(){
     const pkmnObj = pokemons[currentPkmn];
     pkmnNum.textContent = pkmnObj.num;
@@ -1140,7 +1144,6 @@ nextBtn.addEventListener("click", function(){
     showData(currentPkmn);
 });
 
-let thisValue = true;
 shinyBtn.addEventListener("click", function(){
     const pkmnObj = pokemons[currentPkmn];
     if (thisValue){
@@ -1161,6 +1164,17 @@ changeSexBtn.addEventListener("click", () => {
     }
     pkmnImg.src = pkmnObj.img;
     thisValue = true;
+});
+
+alternativeBtn.addEventListener("click", () => {
+    const pkmnObj = pokemons[currentPkmn];
+    if (thisValue){
+        pkmnImg.src = pkmnObj.altImg;
+        thisValue = false;
+        return
+    }
+    pkmnImg.src = pkmnObj.img;
+    thisValue = false;
 });
 
 searchBtn.addEventListener("click", () => {
