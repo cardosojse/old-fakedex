@@ -59,18 +59,7 @@ body{
     align-items: center;
 }
 
-.pokedex-template{
-    position: relative;
-    width: 100%;
-    max-width: 480px;
-    background-image: url('img/background.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .grid-container{
-    position: absolute;
     display: grid;
     grid-template-areas:"a1 a1 a1 a1"
                         "a2 a3 a3 a4"
