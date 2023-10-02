@@ -26,12 +26,21 @@
 }
 
 @media screen and (min-width: 800px) {
-    .pokedex-template{
-        position: relative;
-    }
     .grid-container .r0{
         position: absolute;
-        top: -5%;
+        top: 0;
+    }
+    aside .search-input{
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid #2E8B57;
+    }
+    aside .submit-input{
+        padding: 6px;
+        border: none;
+        background-color: #2E8B57;
+        border-radius: 0;
+        color: #fff;
     }
 }
 
@@ -47,18 +56,17 @@ html{
 }
 body{
     color: #2e8b57;
-    width: 100%;
-    height: 100%;
+    height: 100dvh;
     position: fixed;
     overflow-y: scroll;
 }
-
 #myDiv{
+    background: url(img/largerBkgd.png);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .grid-container{
     display: grid;
     grid-template-areas:"a1 a1 a1 a1"
@@ -157,19 +165,6 @@ aside{
 aside input{
     padding: 12px;
 }
-/* aside .search-input{
-    padding: 12px;
-    border-radius: 2px;
-    border: 1px solid #2E8B57;
-    
-}
-aside .submit-input{
-    padding: 6px;
-    border: none;
-    background-color: #2E8B57;
-    border-radius: 8px;
-    color: #fff;
-} */
 .active{
     display: flex;
     justify-content: center;

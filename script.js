@@ -394,7 +394,7 @@ const pokemons = [
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
         category: 'Bud',
-        ability: 'Green Thumb',
+        ability: 'Leaf Guard',
         pokemonTypes: [types.grass],
     },
     {
