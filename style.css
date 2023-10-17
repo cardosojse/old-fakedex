@@ -1,11 +1,8 @@
 @media screen and (max-width: 600px) {
-    .pokedex-template{
-        display: none;
-    }
     .grid-container{
         top: 0;
-        height: 100%;
-        background-image: url('img/largerBkgd.png');
+        height: 100dvh;
+        background: url(img/largerBkgd.png);
         background-size: cover;
     }
     aside{
@@ -52,17 +49,12 @@
 }
 html{
     overflow: hidden;
-    width: 100%;
 }
 body{
     color: #2e8b57;
-    height: 100dvh;
     position: fixed;
-    overflow-y: scroll;
 }
 #myDiv{
-    background: url(img/largerBkgd.png);
-    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
