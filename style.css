@@ -49,9 +49,11 @@
 }
 html{
     overflow: hidden;
+    width: 100%;
 }
 body{
     color: #2e8b57;
+    height: 100%;
     position: fixed;
 }
 #myDiv{
