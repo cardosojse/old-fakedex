@@ -49,11 +49,9 @@
 }
 html{
     overflow: hidden;
-    width: 100%;
 }
 body{
     color: #2e8b57;
-    height: 100%;
     position: fixed;
 }
 #myDiv{
@@ -73,7 +71,6 @@ body{
                         "a10 a10 a10 a10";
     align-items: center;
     gap: 8px;
-    width: 100%;
     max-width: 425px;
     text-align: center;
     text-shadow: 1px 1px #353535; 
