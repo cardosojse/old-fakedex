@@ -53,12 +53,8 @@ html{
 body{
     color: #2e8b57;
     position: fixed;
-}
-#myDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+}   
 .grid-container{
     display: grid;
     grid-template-areas:"a1 a1 a1 a1"
