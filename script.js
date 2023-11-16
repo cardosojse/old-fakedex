@@ -1296,3 +1296,9 @@ submitInput.addEventListener("click", () => {
     showData(pkmnId);
     searchInput.value = "";
 });
+
+// Evita o zoom na tela do iphone ao clicar no input de busca
+if(navigator.userAgent.indexOf('iPhone') > -1 ){
+    document.querySelector("[name=viewport]")
+     .setAttribute("content","width=device-width, initial-scale=1, maximum-scale=1");
+}
