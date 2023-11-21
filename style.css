@@ -13,7 +13,7 @@
 
 .wrapper{
     margin-top: 60px;
-    border: 8px solid #111;
+    border: 2px solid #111;
     border-radius: 16px;
 }
 
@@ -131,7 +131,8 @@ aside input{
 @media screen and (max-width: 600px) {
     body{
         background: url(img/largerBkgd.png);
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .grid-container{
         top: 0;
