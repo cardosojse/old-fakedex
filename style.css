@@ -131,7 +131,7 @@ aside input{
 @media screen and (max-width: 600px) {
     body{
         background: url(img/largerBkgd.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .grid-container{
