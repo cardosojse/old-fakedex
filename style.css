@@ -38,8 +38,6 @@ body{
     text-shadow: 1px 1px #353535; 
     border-radius: 10px;
     position: relative;
-    background: url(img/largerBkgd.png);
-    background-size: cover;
 }
 .grid-item{
     padding: 10px;
@@ -132,7 +130,8 @@ aside input{
     body{
         background: url(img/largerBkgd.png);
         background-size: cover;
-        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: hidden;
     }
     .grid-container{
         top: 0;
@@ -159,7 +158,6 @@ aside input{
         border: 0;
     }
 }
-
 
 @media screen and (min-width: 800px) {
     .grid-container .r0{
