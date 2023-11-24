@@ -178,7 +178,7 @@ const pokemons = [
         num: '015',
         name: 'SARUREK',
         img: 'img/pkmn-img/015.png',
-        shinyImg: 'img/pkmn-img/015.png',
+        shinyImg: 'img/pkmn-img-shiny/015_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
         category: 'Opossum',
@@ -189,7 +189,7 @@ const pokemons = [
         num: '016',
         name: 'SAREGURO',
         img: 'img/pkmn-img/016.png',
-        shinyImg: 'img/pkmn-img/016.png',
+        shinyImg: 'img/pkmn-img-shiny/016_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
         category: 'Opossum',
@@ -946,13 +946,13 @@ const pokemons = [
     {
         num: '084',
         name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
+        img: 'img/pkmn-img/084.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
-        category: '',
-        ability: '',
-        pokemonTypes: [types.normal],
+        category: 'Apparition',
+        ability: 'Night Veil',
+        pokemonTypes: [types.ghost, types.water],
     },
     {
         num: '085',
@@ -1126,6 +1126,7 @@ const pokemons = [
         num: '100',
         name: 'DEFAULT',
         form: 'Mortal Form',
+        altForm: 'Eternal Form',
         img: 'img/pkmn-img/100.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -1275,6 +1276,7 @@ alternativeBtn.addEventListener("click", () => {
     const pkmnObj = pokemons[currentPkmn];
     if (thisValue){
         pkmnImg.src = pkmnObj.altImg;
+        pkmnForm.textContent = pkmnObj.altForm;
         thisValue = false;
         return
     }
