@@ -947,7 +947,7 @@ const pokemons = [
         num: '084',
         name: 'DEFAULT',
         img: 'img/pkmn-img/084.png',
-        shinyImg: 'img/pkmn-img/placeholder.png',
+        shinyImg: 'img/pkmn-img-shiny/084_s.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
         category: 'Apparition',
@@ -957,13 +957,13 @@ const pokemons = [
     {
         num: '085',
         name: 'DEFAULT',
-        img: 'img/pkmn-img/placeholder.png',
+        img: 'img/pkmn-img/085.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
         altImg: 'img/pkmn-img/placeholder.png',
-        category: '',
-        ability: '',
-        pokemonTypes: [types.normal],
+        category: 'Apparition',
+        ability: 'Night Veil',
+        pokemonTypes: [types.ghost, types.flying],
     },
     {
         num: '086',
@@ -1126,7 +1126,6 @@ const pokemons = [
         num: '100',
         name: 'DEFAULT',
         form: 'Mortal Form',
-        altForm: 'Eternal Form',
         img: 'img/pkmn-img/100.png',
         shinyImg: 'img/pkmn-img/placeholder.png',
         femaleImg: 'img/pkmn-img/placeholder.png',
@@ -1276,7 +1275,6 @@ alternativeBtn.addEventListener("click", () => {
     const pkmnObj = pokemons[currentPkmn];
     if (thisValue){
         pkmnImg.src = pkmnObj.altImg;
-        pkmnForm.textContent = pkmnObj.altForm;
         thisValue = false;
         return
     }
