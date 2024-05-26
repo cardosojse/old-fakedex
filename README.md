@@ -8,4 +8,4 @@ A Fakedex foi o primeiro projeto que desenvolvi para um cliente. O seu requisito
 
 ## Como acessá-lo
 
-Você pode [acessar o meu projeto](cardosojse.github.io/old-fakedex/) ou [baixá-lo](https://github.com/cardosojse/old-fakedex) através do GitHub.
+Você pode [acessar o meu projeto](https://cardosojse.github.io/old-fakedex/) ou [baixá-lo](https://github.com/cardosojse/old-fakedex) através do GitHub.
